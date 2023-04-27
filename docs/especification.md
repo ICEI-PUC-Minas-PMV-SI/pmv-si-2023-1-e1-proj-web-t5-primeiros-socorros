@@ -42,23 +42,24 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |RF-008| A aplicação deve fornecer informações detalhadas e relevantes sobre como prevenir acidentes domésticos | ALTA | |
 |RF-009| A aplicação deve disponibilizar números telefônicos destinados a casos de emergência | ALTA | |
 |RF-010| A aplicação deve instruir o usuário a realizar curativos paliativos | ALTA | |
+|RF-011|  A aplicação deve encaminhar chamadas a centros de aconselhamentos, a fim de evitar tentativas de suícidio | MÉDIA | | 
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RF-001| A aplicação deve visualizar o site em dispositivos móveis| ALTA | | 
-|RF-002| A aplicação deve permitir que o usuário visitante acesse o guia de emergência sem ter que fazer cadastro | ALTA | |
-|RF-003| A aplicação deve encaminhar chamadas a centros de aconselhamentos, a fim de evitar tentativas de suícidio | MÉDIA | |
-|RF-004| A aplicação deve utilizar uma API que conecte o usuário ao google maps| ALTA | |
-|RF-005| A aplicação deve solicitar o cadastro para efetuar o registro do usuário visitante | ALTA | |
-|RF-006| A aplicação deve utilizar uma API que permita que o usuário cadastrado realize o login para que tenha acesso diaramente ao registro dos níveis de glicose | ALTA | |
-|RF-007| A aplicação deve produzir um relatório com as informações de glicemia inseridas pelo usuário cadastrado| ALTA | |
-|RF-008| A aplicação deve utilizar uma API que permita que o usuário cadastrado tenha acesso a funcionalidades específicas do site | ALTA | |
-|RF-009| A aplicação deve utilizar uma API que permita a busca de conteúdo atraves do campo de pesquisa | ALTA | |
-|RF-010| A aplicação deve utilzar uma API de acessibilidade que leia o conteúdo da página para pessoas cegas e que não saibam ler | ALTA | |
-|RF-011| A aplicação deve permitir que o usuário visitante realize seu cadastro com seu e-mail | ALTA | |
-|RF-012| A aplicação deve permitir que o usuário faça login utilizando seu e-mail e senha | ALTA | |
+|RNF-001| A aplicação deve visualizar o site em dispositivos móveis| ALTA | | 
+|RNF-002| A aplicação deve permitir que o usuário visitante acesse o guia de emergência sem ter que fazer cadastro | ALTA | |
+|RNF-003| A aplicação deve encaminhar chamadas a centros de aconselhamentos, a fim de evitar tentativas de suícidio | MÉDIA | |
+|RNF-004| A aplicação deve utilizar uma API que conecte o usuário ao google maps| ALTA | |
+|RNF-005| A aplicação deve solicitar o cadastro para efetuar o registro do usuário visitante | ALTA | |
+|RNF-006| A aplicação deve utilizar uma API que permita que o usuário cadastrado realize o login para que tenha acesso diaramente ao registro dos níveis de glicose | ALTA | |
+|RNF-007| A aplicação deve produzir um relatório com as informações de glicemia inseridas pelo usuário cadastrado| ALTA | |
+|RNF-008| A aplicação deve utilizar uma API que permita que o usuário cadastrado tenha acesso a funcionalidades específicas do site | ALTA | |
+|RNF-009| A aplicação deve utilizar uma API que permita a busca de conteúdo atraves do campo de pesquisa | ALTA | |
+|RNF-010| A aplicação deve utilzar uma API de acessibilidade que leia o conteúdo da página para pessoas cegas e que não saibam ler | ALTA | |
+|RNF-011| A aplicação deve permitir que o usuário visitante realize seu cadastro com seu e-mail | ALTA | |
+|RNF-012| A aplicação deve permitir que o usuário faça login utilizando seu e-mail e senha | ALTA | |
 
 Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
 
