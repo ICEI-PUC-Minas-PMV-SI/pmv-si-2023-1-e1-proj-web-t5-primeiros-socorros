@@ -23,7 +23,17 @@ São protótipos usados em design de interface para sugerir a estrutura de um si
 
 A partir da homepage, é possível visualizar e navegar por meio das principais funcionalidades da aplicação (RF-004), assim como a disponibilização de um mapa mostrando os hospitais mais próximos de sua área, tanto para usuários cadastrados quanto visitantes (RF-003). Lá também será observado uma lupa de busca embutida no mapa, que auxilie na procura (RF-005). 
 
-docs/img/Pronto Socorros-2.jpg
+![Pronto-socorros-1](https://user-images.githubusercontent.com/101735808/235498590-04785444-2d6c-432a-a532-95dbb3c11fd4.jpg)
+
+
+Para o acesso das principais funcionalidades, é necessário que o usuário faça o login em sua conta cadastrada. (RF-011)
+
+![Pronto Socorros-2](https://user-images.githubusercontent.com/101735808/235499990-f886a96c-f529-4bf0-b0b9-0d9a01ed3234.jpg)
+
+
+Em caso de perda ou esquecimento da senha, há a disponibilidade da recuperação da senha por meio de envio com instruções para o e-mail do usuário cadastrado. (RF-014)
+
+![Pronto Socorros-4](https://user-images.githubusercontent.com/101735808/235500116-2a5c2103-e5cf-46b0-be6b-48d2d04c65c5.jpg)
 
 
 Através da página home sem login o usuário será redirecionado a página de emergência a qual possui os números telefônicos destinados a casos de emergência (RF-009), incluindo encaminhar chamadas a centros de aconselhamentos, a fim de evitar tentativas de suícidio (RF-011).
