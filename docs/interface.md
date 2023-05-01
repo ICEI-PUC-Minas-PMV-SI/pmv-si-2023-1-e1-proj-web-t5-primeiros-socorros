@@ -26,9 +26,9 @@ A partir da homepage, é possível visualizar e navegar por meio das principais 
 ![Pronto-socorros-1](https://user-images.githubusercontent.com/101735808/235498590-04785444-2d6c-432a-a532-95dbb3c11fd4.jpg)
 
 
-Para o acesso das principais funcionalidades, é necessário que o usuário faça o login em sua conta cadastrada. (RF-011)
+A aplicação deve produzir um relatório com as informações de glicemia inseridas somente pelo usuário cadastrado (RF-012). Para isso, o mesmo deve fazer um login utilizando seu e-mail e senha para ter acesso aos registros (RF-011), para que portanto, possa utilizar as funcionalidades disponibilizadas na geração do relatório de glicemia (RF-016). Ademais, um botão de logout na página de "Registro de Glicemia" estará presente caso o usuário cadastrado deseje sair da página. (RF-013)
 
-![Pronto Socorros-2](https://user-images.githubusercontent.com/101735808/235499990-f886a96c-f529-4bf0-b0b9-0d9a01ed3234.jpg)
+![Glicemia](https://user-images.githubusercontent.com/101735808/235537263-bfb12a99-3763-49b1-8028-e850932c42d7.png)
 
 
 Em caso de perda ou esquecimento da senha, há a disponibilidade da recuperação da senha por meio de envio com instruções para o e-mail do usuário cadastrado. (RF-014)
