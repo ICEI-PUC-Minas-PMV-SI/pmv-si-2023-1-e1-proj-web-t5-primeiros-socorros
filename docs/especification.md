@@ -42,13 +42,12 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |RF-008| A aplicação deve disponibilizar números telefônicos destinados a casos de emergência para usuários visitantes e cadastrados..| ALTA | |
 |RF-009| A aplicação deve instruir o usuário cadastrado ou visitante a realizar curativos paliativos. | ALTA | |
 |RF-010| A aplicação deve encaminhar chamadas a centros de aconselhamentos, a fim de evitar tentativas de suícidio para usuários visitantes e cadastrados. | MÉDIA | | 
-|RF-011| A aplicação deve permitir que o usuário faça login utilizando seu e-mail e senha | ALTA | |
+|RF-011| A aplicação deve permitir que o usuário faça login utilizando seu e-mail e senha para ter acesso ao "Relatório de Glicemia. | ALTA | |
 |RF-012| A aplicação deve produzir um relatório com as informações de glicemia inseridas somente pelo usuário cadastrado.| ALTA | |
 |RF-013| A aplicação deverá disponibilizar um botão de logout na página de "Relatório de Glicemia" caso o usuário cadastrado deseje sair da página. | ALTA | |
 |RF-014| A aplicação deverá disponibilizar a recuperação da senha por meio de envio com instruções para o e-mail do usuário cadastrado. | ALTA | |
 |RF-015| A aplicação deve permitir que o usuário visitante ou cadastrado acesse o guia de emergência, sem ter que fazer cadastro | ALTA | |
-|RF-016| A aplicação deve utilizar um registro que permita que o usuário cadastrado realize o login para que tenha acesso diaramente ao registro dos níveis de glicose | ALTA | |
-|RF-017| A aplicação deve utilizar um algoritmo que permita a busca de conteúdo atraves do campo de pesquisa | ALTA | |
+|RF-016| A aplicação deve utilizar um registro que permita que o usuário cadastrado realize o login para que tenha acesso diaramente ao registro dos níveis de glicose | ALTA | |.
 
 
 ### Requisitos não Funcionais
