@@ -21,15 +21,14 @@ Fluxo de usuário (User Flow) é uma técnica que permite ao desenvolvedor mapea
 
 São protótipos usados em design de interface para sugerir a estrutura de um site web e seu relacionamentos entre suas páginas. Um wireframe web é uma ilustração semelhante do layout de elementos fundamentais na interface.
 
-Através da página home sem login o usuário será redirecionado a página de emergência a qual possui os números telefônicos destinados a casos de emergência (RF-009).
+Através da página home sem login o usuário será redirecionado a página de emergência a qual possui os números telefônicos destinados a casos de emergência (RF-009), incluindo encaminhar chamadas a centros de aconselhamentos, a fim de evitar tentativas de suícidio (RF-011).
 
-![telefones](https://user-images.githubusercontent.com/128104293/234689284-88478e0d-1a8c-444a-aea7-d9ff61902844.png)
+![Projeto (1)](https://user-images.githubusercontent.com/128104293/235440923-80dfbf7a-cd4b-4632-a816-58a881a517f4.png)
 
 
 A partir da Homepage, utilizando o menu de navegação, o usuário irá clicar no botão "Guias de Primeiros Socorros" (RF-007) para acessar a página que contém informações reais sobre ações que devem ser tomadas em caso de primeiros socorros. Ao acessar a página, será exibido ao usuário informações sobre os quatro casos: Acidente Vascular Cerebral (AVC), ataque cardíaco, ansiedade, queimaduras: 
 
-![Untitled (3)](https://user-images.githubusercontent.com/128104293/234694750-8dae8499-4f0d-4580-97dc-7fdaf6d5d170.png)
-
+![Untitled (5)](https://user-images.githubusercontent.com/128104293/235441077-c781a1b1-58a8-43a3-8b49-adbdcd7ab69d.png)
 
 
 
