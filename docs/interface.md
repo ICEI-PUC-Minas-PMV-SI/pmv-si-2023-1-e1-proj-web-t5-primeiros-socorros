@@ -36,12 +36,12 @@ Em caso de perda ou esquecimento da senha, há a disponibilidade da recuperaçã
 ![Pronto Socorros-4](https://user-images.githubusercontent.com/101735808/235500116-2a5c2103-e5cf-46b0-be6b-48d2d04c65c5.jpg)
 
 
-Através da página home sem login o usuário será redirecionado a página de emergência a qual possui os números telefônicos destinados a casos de emergência (RF-009), incluindo encaminhar chamadas a centros de aconselhamentos, a fim de evitar tentativas de suícidio (RF-011).
+Através da página home sem login o usuário será redirecionado a página de emergência a qual possui os números telefônicos destinados a casos de emergência (RF-008), incluindo encaminhar chamadas a centros de aconselhamentos, a fim de evitar tentativas de suícidio (RF-010).
 
 ![Projeto (1)](https://user-images.githubusercontent.com/128104293/235440923-80dfbf7a-cd4b-4632-a816-58a881a517f4.png)
 
 
-A partir da Homepage, utilizando o menu de navegação, o usuário irá clicar no botão "Guias de Primeiros Socorros" (RF-007) para acessar a página que contém informações reais sobre ações que devem ser tomadas em caso de primeiros socorros. Ao acessar a página, será exibido ao usuário informações sobre os quatro casos: Acidente Vascular Cerebral (AVC), ataque cardíaco, ansiedade, queimaduras: 
+A partir da Homepage, utilizando o menu de navegação, o usuário irá clicar no botão "Guias de Primeiros Socorros" (RF-002) para acessar a página que contém informações reais sobre ações que devem ser tomadas em caso de primeiros socorros. Ao acessar a página, será exibido ao usuário informações sobre os quatro casos: Acidente Vascular Cerebral (AVC), ataque cardíaco, ansiedade, queimaduras: 
 
 ![Untitled (5)](https://user-images.githubusercontent.com/128104293/235441077-c781a1b1-58a8-43a3-8b49-adbdcd7ab69d.png)
 
