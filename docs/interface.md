@@ -36,7 +36,7 @@ Em caso de perda ou esquecimento da senha, há a disponibilidade da recuperaçã
 ![Pronto Socorros-4](https://user-images.githubusercontent.com/101735808/235500116-2a5c2103-e5cf-46b0-be6b-48d2d04c65c5.jpg)
 
 
-Através da página home sem login o usuário será redirecionado a página de emergência a qual possui os números telefônicos destinados a casos de emergência (RF-008), incluindo encaminhar chamadas a centros de aconselhamentos, a fim de evitar tentativas de suícidio (RF-010).
+Através da página home sem login (RF-015) o usuário/visitante será redirecionado a página de emergência a qual possui os números telefônicos destinados a casos de emergência (RF-008), incluindo encaminhar chamadas a centros de aconselhamentos, a fim de evitar tentativas de suícidio (RF-010).
 
 ![Projeto (1)](https://user-images.githubusercontent.com/128104293/235440923-80dfbf7a-cd4b-4632-a816-58a881a517f4.png)
 
