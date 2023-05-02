@@ -46,7 +46,7 @@ A partir da Homepage, utilizando o menu de navegação, o usuário irá clicar n
 ![Untitled (5)](https://user-images.githubusercontent.com/128104293/235441077-c781a1b1-58a8-43a3-8b49-adbdcd7ab69d.png)
 
 
-![Guia informativo de prevenções de acidentes domésticos](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/commit/bfc59e2162508cc13b311d2577b2efd117738ab8)
+![Guia informativo de prevenções de acidentes domésticos]
 
 
 
