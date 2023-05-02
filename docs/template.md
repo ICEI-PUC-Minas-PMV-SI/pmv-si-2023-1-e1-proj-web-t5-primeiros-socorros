@@ -1,8 +1,13 @@
 # Template padrão do site
 
-Layout padrão do site (HTML e CSS) que será utilizado em todas as páginas com a definição de identidade visual, aspectos de responsividade e iconografia.
+Layout padrão do site (HTML e CSS) e tela responsiva.
 
-Explique as guias de estilo utilizadas no seu projeto.
+
+
+https://user-images.githubusercontent.com/105678089/235683125-d3f40640-f127-4cc6-a725-4303b8a1bd27.mp4
+
+
+
 
 ## Design
 
