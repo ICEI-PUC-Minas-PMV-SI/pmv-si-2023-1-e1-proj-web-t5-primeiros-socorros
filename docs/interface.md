@@ -49,6 +49,9 @@ A partir da Homepage, utilizando o menu de navegação, o usuário irá clicar n
 ![Guia informativo de prevenções de acidentes domésticos]
 
 
+![Untitled (6)](https://user-images.githubusercontent.com/128104293/235798908-5f9be804-c01a-4dab-a190-5e4105a87e05.png)
+
+
 
 
 ### Exemplo
