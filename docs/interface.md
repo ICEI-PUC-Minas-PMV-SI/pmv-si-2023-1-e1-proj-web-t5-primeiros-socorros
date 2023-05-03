@@ -50,6 +50,10 @@ A partir da Homepage, utilizando o menu de navegação, o usuário irá clicar n
 
 ![Untitled (6)](https://user-images.githubusercontent.com/128104293/235798908-5f9be804-c01a-4dab-a190-5e4105a87e05.png)
 
+a RF-007 é um guia de prevenção de acidentes domésticos para usurarios cadastrados e não cadastrados
+
+![guia preveção de ac domestico](https://user-images.githubusercontent.com/128707254/235824628-819ec19e-f997-4f35-83e0-2405738eecb4.jpg)
+
 
 
 
