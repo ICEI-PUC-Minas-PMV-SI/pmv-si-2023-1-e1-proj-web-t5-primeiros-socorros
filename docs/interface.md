@@ -46,9 +46,10 @@ A partir da Homepage, utilizando o menu de navegação, o usuário irá clicar n
 ![Untitled (5)](https://user-images.githubusercontent.com/128104293/235441077-c781a1b1-58a8-43a3-8b49-adbdcd7ab69d.png)
 
  A RF-009 se refere a função de instruir o usuário cadastrado ou visitante a realizar curativos paliativos em casos de primeiros socorros.
+![Untitled (7)](https://user-images.githubusercontent.com/128104293/235891722-4b0a70af-c7f6-4a12-8969-7aba78cc9b41.png)
 
 
-![Untitled (6)](https://user-images.githubusercontent.com/128104293/235798908-5f9be804-c01a-4dab-a190-5e4105a87e05.png)
+
 
 a RF-007 é um guia de prevenção de acidentes domésticos para usurarios cadastrados e não cadastrados
 
