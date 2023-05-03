@@ -27,6 +27,7 @@ Apresente as fontes que serão utilizadas e sua função no site. As principais 
 ## Iconografia
 
 Defina os ícones que serão utilizados e suas respectivas funções.
+https://user-images.githubusercontent.com/128707254/235823896-0fd60dc7-c316-4837-8c22-c57d6b108224.jpg
 
 Apresente os estilos CSS criados para cada um dos elementos apresentados.
 Outras seções podem ser adicionadas neste documento para apresentar padrões de componentes, de menus, etc.
