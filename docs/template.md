@@ -13,6 +13,9 @@ https://user-images.githubusercontent.com/105678089/235683125-d3f40640-f127-4cc6
 
 Detalhe os layouts que serão utilizados. Apresente onde será colocado o logo do sistema. Defina os menus padrões, entre outras coisas.
 
+LOGOTIPO
+![design1](https://user-images.githubusercontent.com/128707254/236089723-c0ea5273-61b9-4573-9a68-30b7a91d69f6.jpg)
+
 
 ## Cores
 
