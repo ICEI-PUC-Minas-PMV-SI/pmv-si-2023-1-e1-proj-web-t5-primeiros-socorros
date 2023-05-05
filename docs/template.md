@@ -2,11 +2,7 @@
 
 Layout padrão do site (HTML e CSS) e tela responsiva.
 
-
-
-https://user-images.githubusercontent.com/105678089/235683125-d3f40640-f127-4cc6-a725-4303b8a1bd27.mp4
-
-
+https://user-images.githubusercontent.com/105678089/236372552-00c7f652-91c6-4628-ac40-ff2d297e7cec.mp4
 
 
 ## Design
