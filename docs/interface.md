@@ -45,7 +45,7 @@ Através da página home sem login (RF-015) o usuário/visitante será redirecio
 ![Projeto (1)](https://user-images.githubusercontent.com/128104293/235440923-80dfbf7a-cd4b-4632-a816-58a881a517f4.png)
 
 
-A partir da Homepage, utilizando o menu de navegação, o usuário irá clicar no botão "Guias de Primeiros Socorros" (RF-002 e RF-009) para acessar a página que contém informações reais sobre ações que devem ser tomadas em caso de primeiros socorros e curativos paliativos. Ao acessar a página, será exibido ao usuário informações sobre os quatro casos: Hemorragias, Lesões na cabeça, Distensão e entorses e Queimaduras: 
+A partir da Homepage, utilizando o menu de navegação, o usuário irá clicar no botão "Guias de Primeiros Socorros" (RF-002, RF-015 e RF-009) para, mesmo sendo cadastrado ou não acessar a página  que contém informações reais sobre ações que devem ser tomadas em caso de primeiros socorros e quais medidas preventivas tomar, tais como curativos paliativos. Ao acessar a página, será exibido ao usuário informações sobre os quatro casos: Hemorragias, Lesões na cabeça, Distensão e entorses e Queimaduras: 
 
 
 
