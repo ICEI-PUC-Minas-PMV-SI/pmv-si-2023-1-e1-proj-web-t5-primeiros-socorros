@@ -20,9 +20,13 @@ LOGOTIPO
 ![cores](https://user-images.githubusercontent.com/128707254/236089041-9906ed55-bc6e-473b-adf8-05a446faf06f.jpg)
 
 ciano escuro - tranquilidade
+
 vermelho - atenção
+
 ciano claro - sossego
+
 magenta - respeito
+
 ciano padrão - controle
 
 
