@@ -25,7 +25,7 @@ vermelho - atenção
 
 ciano claro - sossego
 
-magenta - respeito
+magenta - contraste
 
 ciano padrão - controle
 
