@@ -57,7 +57,14 @@ a RF-007 é um guia de prevenção de acidentes domésticos para usurarios cadas
 ![guia preveção de ac domestico](https://user-images.githubusercontent.com/128707254/235824628-819ec19e-f997-4f35-83e0-2405738eecb4.jpg)
 
 
+Utilizando o menu de navegação, o usuário irá clicar no botão "Guia informativo sobre sintomas" para acessar a página  que contém informações reais sobre sintomas de algumas doenças. Ao acessar a página, será exibido ao usuário informações sobre os quatro casos: AVC, ataque cardiáco, ansiedade e queda glicemica
 
+![sintomas](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/blob/main/docs/img/sintomas.png)
+
+
+Utilizando o menu de navegação, o usuário pode clicar no botão "Sobre nós" ou "Informação de privacidade" e será direcionado à paginas de informações sobre o projeto
+
+![privacidade](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/blob/main/docs/img/privacidade.png)
 
 ### Exemplo
 
