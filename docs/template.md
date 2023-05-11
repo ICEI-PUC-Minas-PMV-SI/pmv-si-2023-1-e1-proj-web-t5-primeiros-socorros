@@ -19,7 +19,11 @@ LOGOTIPO
 
 ![cores](https://user-images.githubusercontent.com/128707254/236089041-9906ed55-bc6e-473b-adf8-05a446faf06f.jpg)
 
-Apresente a paleta de cores que será utilizada. Uma ferramenta interessante para a criação de palestas de cores é o *Adobe Color* ([https://color.adobe.com/pt/create/color-wheel](https://color.adobe.com/pt/create/color-wheel)).
+ciano escuro - tranquilidade
+vermelho - atenção
+ciano claro - sossego
+magenta - respeito
+ciano padrão - controle
 
 
 ## Tipografia
