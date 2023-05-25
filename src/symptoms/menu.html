@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Sintomas</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="../styles/styles.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+      <div class="container">
+        <h1>Menu Sintomas</h1>
+        <input type="text" class="form-control mb-4" id="search-input" placeholder="Digite para filtrar os sintomas">
+  
+        <div class="btn-group-vertical" id="menu-options">
+          <button type="button" class="btn btn-primary btn-lg btn-block menu-button" data-target="ansiedade">
+            <!-- <img src="ansiedade.png" alt="Ícone Ansiedade"> -->
+            Sintomas de Ansiedade
+          </button>
+          <button type="button" class="btn btn-primary btn-lg btn-block menu-button" data-target="ataque_cardiaco">
+            <!-- <img src="ataque_cardiaco.png" alt="Ícone Ataque Cardíaco"> -->
+            Sintomas de Ataque Cardíaco
+          </button>
+          <button type="button" class="btn btn-primary btn-lg btn-block menu-button" data-target="avc">
+            <!-- <img src="avc.png" alt="Ícone AVC"> -->
+            Sintomas de AVC
+          </button>
+          <button type="button" class="btn btn-primary btn-lg btn-block menu-button" data-target="hipoglicemia">
+            <!-- <img src="hipoglicemia.png" alt="Ícone Hipoglicemia"> -->
+            Sintomas de Hipoglicemia
+          </button>
+        </div>
+  
+        <div class="sintomas-div" id="ansiedade">
+          <h2>Sintomas de Ansiedade</h2>
+          <ul class="list-group">
+            <li class="list-group-item">Sentimento constante de preocupação ou apreensão</li>
+            <li class="list-group-item">Inquietação ou sensação de estar no limite</li>
+            <li class="list-group-item">Fadiga ou cansaço excessivo</li>
+            <li class="list-group-item">Dificuldade em concentrar-se ou em manter a mente em branco</li>
+            <li class="list-group-item">Irritabilidade, tensão muscular ou problemas de sono</li>
+          </ul>
+          <button type="button" class="btn btn-primary mt-3 close-button" data-target="ansiedade">Fechar</button>
+        </div>
+  
+        <div class="sintomas-div" id="ataque_cardiaco">
+          <h2>Sintomas de Ataque Cardíaco</h2>
+          <ul class="list-group">
+            <li class="list-group-item">Dor ou desconforto no peito, que pode se espalhar para os braços, ombros, pescoço, mandíbula ou costas</li>
+            <li class="list-group-item">Falta de ar ou dificuldade para respirar</li>
+            <li class="list-group-item">Náusea, indigestão ou desconforto abdominal</li>
+            <li class="list-group-item">Sensação de fraqueza ou fadiga inexplicável</li>
+            <li class="list-group-item">Desmaio ou tontura</li>
+          </ul>
+          <button type="button" class="btn btn-primary mt-3 close-button" data-target="ataque_cardiaco">Fechar</button>
+        </div>
+  
+        <div class="sintomas-div" id="avc">
+          <h2>Sintomas de AVC</h2>
+          <ul class="list-group">
+            <li class="list-group-item">Dormência súbita ou fraqueza no rosto, braço ou perna, especialmente em um lado do corpo</li>
+            <li class="list-group-item">Confusão repentina, dificuldade em falar ou entender a fala</li>
+            <li class="list-group-item">Dificuldade em enxergar com um ou ambos os olhos</li>
+            <li class="list-group-item">Dificuldade em caminhar, tontura súbita ou perda de equilíbrio ou coordenação</li>
+            <li class="list-group-item">Dor de cabeça súbita e intensa sem causa conhecida</li>
+          </ul>
+          <button type="button" class="btn btn-primary mt-3 close-button" data-target="avc">Fechar</button>
+        </div>
+  
+        <div class="sintomas-div" id="hipoglicemia">
+          <h2>Sintomas de Hipoglicemia</h2>
+          <ul class="list-group">
+            <li class="list-group-item">Sensação de fome intensa</li>
+            <li class="list-group-item">Tremores ou sensação de fraqueza</li>
+            <li class="list-group-item">Suor frio e pegajoso</li>
+            <li class="list-group-item">Tontura ou vertigem</li>
+            <li class="list-group-item">Confusão ou dificuldade de concentração</li>
+          </ul>
+          <button type="button" class="btn btn-primary mt-3 close-button" data-target="hipoglicemia">Fechar</button>
+        </div>
+      </div>
+    </div>
+  
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="menu.js"></script>
+  </body>
+
+</html>
