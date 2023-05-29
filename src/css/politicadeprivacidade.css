@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+html {
+    background-color: lightcyan;
+  }
+  
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+    @media screen and (max-width: 450) 
+    
+}
+
+nav {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #0abab5;
+    height: 8vh;
+  }
+
+  .nav-list {
+    margin-top: 5px;
+    list-style: none;
+    
+  }
+
+  a:hover {
+    opacity: 0.7;
+  }
+  
+
+  .logo {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+
+  
+  h1{
+    text-align: center;
+    font-size: 40px;
+    color: rgb(138, 138, 138);
+    grid-area: title;
+    margin-top: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .container2 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 50px;
+  }
+
+  .card2 {
+    margin-left: 90px;
+    margin-right: 90px;
+    background-color: #fff;
+    box-shadow: 1px 2px 3px 0px #00000060
+  }
+
+  p {
+    text-align: center;
+    font-size: 15px;
+    color: rgb(54, 54, 54);
+    grid-area: body;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+    word-spacing: 5px;
+    line-height: 20px;
+  }

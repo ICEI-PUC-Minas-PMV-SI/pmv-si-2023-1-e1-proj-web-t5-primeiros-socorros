@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "../Signin-Signup Primeiro Saúde"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "PrimeiroSaúde"
+	}
+}

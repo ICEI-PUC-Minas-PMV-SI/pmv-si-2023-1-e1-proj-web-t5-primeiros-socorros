@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+  
+}
+
+body {
+    background-color: #cffeff;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed
+    
+  }
+
+  nav {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #0abab5;
+    height: 8vh;
+  }
+  .nav-list {
+    margin-top: 5px;
+    list-style: none;
+    
+  }
+  a:hover {
+    opacity: 0.7;
+  }
+  
+
+  .logo {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+
+  .logo-1 {
+    color: #160381;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 0.3s;
+
+  }
+  
+h2 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 20px;
+    color: rgba(21, 21, 21, 0.74);
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+  h4 {
+    font-family: 'Nunito Sans', sans-serif;
+    font-size: 16px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgba(21, 21, 21, 0.74);
+  }
+
+  p {
+    font-family: 'Wix Madefor Display', sans-serif;
+    font-size: 17px;
+    color: gray;
+    display: flex;
+    justify-content: center;
+
+  }
+
+
+  .btn-enviar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 1px;
+  }
+  
+  .container1 {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-top: 100px;
+  }
+  
+  .card1 {
+   
+    background-color: #fff;
+    padding: 5px;
+    box-shadow: 1px 2px 3px 0px #00000060
+  }
+  
+  
+  
+  button{
+    background-color: #0abab5;
+    border-color: #0abab5;
+    color: #fff;
+    padding: 7px;
+    font-family: 'Arvo', serif;
+    font-weight: bold;
+    font-size: 10pt;
+    margin-top: 20px;
+    cursor: pointer;
+    outline: none;
+    transition: all .4s ease-out;
+  }
+  
+  button:hover{
+    background-color: #2196f3;
+    color: #fff;
+  }
+  
+  @media (max-width: 999px) {
+    body {
+      
+      width: 100%;
+      margin: auto;
+      padding: 5;
+      
+    }
+  }
+  
+  .justify-center{
+    font-family: nunito;
+    display: flex;
+    justify-content: center;
+  }
+  
+ 
+ 
+   

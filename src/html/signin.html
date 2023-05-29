@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    <link rel="stylesheet" href="../css/signin.css">
+    <link rel="stylesheet" href="../css/esqueceusuasenha.css">
+    <title>Login</title>
+</head>
+<body>
+  <nav>
+    <img src="../assets/imagem/heart.png" alt="logo" height="70" width="70">
+    <a class="logo" href="../html/index.html">PrimeiroSaúde</a>
+    <ul class="nav-list">
+         <div class="login-bottom">
+        <li><a href="../html/signin.html"><img src="../assets/imagem/iconlogin.png" alt="iconlogin" height="30" width="30"></a>
+        </div>
+        </li>
+    </ul>
+</nav>
+    <div class='container'>
+        <div class='card'>
+          <h1> Entrar </h1>
+          
+          <div id='msgError'></div>
+          
+          <div class='label-float'>
+            <input type='text' id='usuario' paceholder='' required>
+            <label id='userLabel' for='usuario'>Usuário</label>
+          </div>
+          
+          <div class='label-float'>
+            <input type='password' id='senha' paceholder='' required>
+            <label id='senhaLabel' for='senha'>Senha</label>
+            <i class="fa fa-eye" aria-hidden="true"></i>
+          </div>
+          
+          <div class='remember-senha'>
+            <a class="logo-1" href='./esqueceusuasenha.html'>Esqueceu sua senha?</a>
+          </div>
+
+          <div class='justify-center'>
+            <button onclick='entrar()'>Entrar</button>
+          </div>
+          
+          <div class='justify-center'>
+            <hr>
+          </div>
+          
+          <p> Não tem uma conta?
+            <a class="logo-1" href='../html/signup.html'> Cadastre-se </a>
+          </p>
+          
+        </div>
+        </div>
+    <script src="../js/signin.js"></script>
+</body>
+</html>
