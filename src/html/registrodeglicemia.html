@@ -5,25 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="../css/registrodeglicemia.css">
+    <link rel="stylesheet" href="/src/css/Lucas/registrodeglicemia.css">
 </head>
 <body>
-    <form>
-      <label for="data"> Data:
-      </label>
+  <header>
+    <nav>
+      <a href="/src/html/index.html"><img src="/src/assets/imagem/heart.png" height="60" width="64"></a>
+        <a class="logo" href="/src/html/index.html">PrimeiroSaúde</a>
+        <ul class="nav-list">
+             <div class="login-bottom">
+            <li><a href="/src/html/index.html"><img src="/src/assets/imagem/iconlogin.png" alt="iconlogin" height="30" width="30"></a>
+            </div>
+            </li>
+        </ul>
+    </nav>
+      <div class='container3'>
+        <div class='card3'>
+          <h1>Registre sua Glicemia</h1><br>
+      <p>Data:</p>
       <input type="date" id="data" name="data">
-  
-      <label for="hora"> Hora:
-      </label>
+      <p>Hora:</p>
       <input type="time" id="hora" name="hora">
-  
-      <label for="email"> Email:
-      </label>
+      <p>Email:</p>
       <input type="email" id="email" name="email">
-  
-      <input type="submit" value="Enviar">
-    </form>
+      <div class='btn-enviar1'>
+        <a href="/src/html/Lucas/relatorioglicemia.html">
+        <button onclick='enviar()'>Enviar</button>
+      </a>
+    </div>
+    </div>
+    </div>
   </body>
-  
-  </html>
 </html>
