@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Menu de Primeiros Socorros</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container mt-5">
+    <h1 class="text-center mb-4">Menu de Primeiros Socorros</h1>
+    <div id="accordion" class="accordion">
+      <div class="card">
+        <div class="card-header" id="heading1">
+          <h5 class="mb-0">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapse1" aria-expanded="true"
+              aria-controls="collapse1">
+              Queimaduras
+            </button>
+          </h5>
+        </div>
+
+        <div id="collapse1" class="collapse show" aria-labelledby="heading1" data-parent="#accordion">
+          <div class="card-body">
+            <h5 class="mb-3">O que fazer em caso de queimaduras:</h5>
+            <ul>
+              <li>Remova a fonte de calor</li>
+              <li>Resfrie a queimadura com água corrente fria por pelo menos 10 minutos</li>
+              <li>Cubra a queimadura com um pano limpo e seco</li>
+              <li>Procure atendimento médico, especialmente em queimaduras graves</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="heading2">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse2"
+              aria-expanded="false" aria-controls="collapse2">
+              Distensões e Entorses
+            </button>
+          </h5>
+        </div>
+
+        <div id="collapse2" class="collapse" aria-labelledby="heading2" data-parent="#accordion">
+          <div class="card-body">
+            <h5 class="mb-3">O que fazer em caso de distensões e entorses:</h5>
+            <ul>
+              <li>Descanse a área afetada</li>
+              <li>Aplicar gelo na área por 15-20 minutos a cada hora</li>
+              <li>Comprima a área com um bandagem elástica</li>
+              <li>Eleve a área afetada para reduzir o inchaço</li>
+              <li>Procure atendimento médico, especialmente em casos graves</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="heading3">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse3"
+              aria-expanded="false" aria-controls="collapse3">
+              Lesões na Cabeça
+            </button>
+          </h5>
+        </div>
+
+        <div id="collapse3" class="collapse" aria-labelledby="heading3" data-parent="#accordion">
+          <div class="card-body">
+            <h5 class="mb-3">O que fazer em caso de lesões na cabeça:</h5>
+            <ul>
+              <li>Mantenha a pessoa calma e imobilizada</li>
+              <li>Verifique a respiração e a pulsação</li>
+              <li>Chame ajuda médica imediatamente</li>
+              <li>Não remova capacetes ou tentar movimentar a pessoa</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header" id="heading4">
+          <h5 class="mb-0">
+            <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapse4"
+              aria-expanded="false" aria-controls="collapse4">
+              Hemorragia
+            </button>
+          </h5>
+        </div>
+
+        <div id="collapse4" class="collapse" aria-labelledby="heading4" data-parent="#accordion">
+          <div class="card-body">
+            <h5 class="mb-3">O que fazer em caso de hemorragia:</h5>
+            <ul>
+              <li>Pressione firmemente a área sangrante com um pano limpo ou atadura</li>
+              <li>Eleve a parte do corpo afetada, se possível</li>
+              <li>Mantenha a pressão até que a hemorragia pare</li>
+              <li>Procure atendimento médico imediatamente</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="primeiros-socorros.js"></script>
+</body>
+
+</html>
