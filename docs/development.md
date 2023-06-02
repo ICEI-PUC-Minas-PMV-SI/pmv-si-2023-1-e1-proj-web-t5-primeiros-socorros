@@ -34,7 +34,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-005| A aplicação deve permitir uma lupa de busca abaixo do mapa, possibilitando a procura por hospitais e clínicas próximas. | | cadastro-noticia.html |
 |RF-006| A aplicação deve fornecer um guia de primeiros socorros para usuários visitantes e cadastrados. | | cadastro-noticia.html |
 |RF-007| A aplicação deve fornecer informações detalhadas e relevantes sobre como prevenir acidentes domésticos para usuários visitantes e cadastrados.	| | cadastro-noticia.html |	
-|RF-008| A aplicação deve disponibilizar números telefônicos destinados a casos de emergência para usuários visitantes e cadastrados. | Letícia | cadastro-noticia.html |
+|RF-008| A aplicação deve disponibilizar números telefônicos destinados a casos de emergência para usuários visitantes e cadastrados. | Letícia | Telefones.html |
 |RF-009| A aplicação deve instruir o usuário cadastrado ou visitante a realizar curativos paliativos.	|| cadastro-noticia.html |
 |RF-010| A aplicação deve encaminhar chamadas a centros de aconselhamentos, a fim de evitar tentativas de suícidio para usuários visitantes e cadastrados. || cadastro-noticia.html |
 |RF-011| A aplicação deve permitir que o usuário cadastrado faça login utilizando seu e-mail e senha para ter acesso ao "Relatório de Glicemia.	| Lucas | cadastro-noticia.html |
