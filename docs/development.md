@@ -46,7 +46,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 ## Descrição das estruturas:
 
-##Login
+## Login
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
 | Id             | Numero (Inteiro)  | Identificador de usuário                  | 002                                            |
@@ -54,7 +54,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 | Conteúdo       | E-mail            | E-mail do usuário                         |      exemplo78@gmail.com                       |
 | Id do usuário  | Numero (Inteiro)  | senha do usuário                          |   ******  (secreto)                            |
 
-##Cadastro
+## Cadastro
 |  **Nome**      | **Tipo**          | **Descrição**                             | **Exemplo**                                    |
 |:--------------:|-------------------|-------------------------------------------|------------------------------------------------|
 | Id             | Numero (Inteiro)  | Identificador de usuário                  | 002                                            |
