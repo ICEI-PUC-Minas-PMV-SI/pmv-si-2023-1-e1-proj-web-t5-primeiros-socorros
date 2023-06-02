@@ -27,14 +27,14 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito | Responsável | Artefato Criado |
 |------|------------------------|------------|-----------------|
-|RF-001| A aplicação deve disponibilizar um informativo sobre sintomas de infarto,AVC, ansiedade e queimaduras para usuários cadastrados ou visitantes. |  | index.html |
+|RF-001| A aplicação deve disponibilizar um informativo sobre sintomas de infarto,AVC, ansiedade e queimaduras para usuários cadastrados ou visitantes. | Letícia  | index.html |
 |RF-002| A aplicação deve disponibilizar guia prático sobre como agir em casos de emergências, para usuários cadastrados ou visitantes. |  | cadastro-noticia.html |
 |RF-003| A aplicação deve disponibilizar um mapa mostrando os hospitais mais próximos, para usuários cadastrados ou visitantes. | | cadastro-noticia.html |
 |RF-004| A aplicação deve permitir que o usuário cadastrado tenha acesso a funcionalidades específicas do site. | | cadastro-noticia.html |
 |RF-005| A aplicação deve permitir uma lupa de busca abaixo do mapa, possibilitando a procura por hospitais e clínicas próximas. | | cadastro-noticia.html |
 |RF-006| A aplicação deve fornecer um guia de primeiros socorros para usuários visitantes e cadastrados. | | cadastro-noticia.html |
 |RF-007| A aplicação deve fornecer informações detalhadas e relevantes sobre como prevenir acidentes domésticos para usuários visitantes e cadastrados.	| | cadastro-noticia.html |	
-|RF-008| A aplicação deve disponibilizar números telefônicos destinados a casos de emergência para usuários visitantes e cadastrados. | | cadastro-noticia.html |
+|RF-008| A aplicação deve disponibilizar números telefônicos destinados a casos de emergência para usuários visitantes e cadastrados. | Letícia | cadastro-noticia.html |
 |RF-009| A aplicação deve instruir o usuário cadastrado ou visitante a realizar curativos paliativos.	|| cadastro-noticia.html |
 |RF-010| A aplicação deve encaminhar chamadas a centros de aconselhamentos, a fim de evitar tentativas de suícidio para usuários visitantes e cadastrados. || cadastro-noticia.html |
 |RF-011| A aplicação deve permitir que o usuário cadastrado faça login utilizando seu e-mail e senha para ter acesso ao "Relatório de Glicemia.	| Lucas | cadastro-noticia.html |
