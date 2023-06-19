@@ -1,12 +1,4 @@
 
-/**
- * @license
- * Copyright 2019 Google LLC. All Rights Reserved.
- * SPDX-License-Identifier: Apache-2.0
- */
-// This example requires the Places library. Include the libraries=places
-// parameter when you first load the API. For example:
-// <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&libraries=places">
 function initMap() {
   const map = new google.maps.Map(document.getElementById("map"), {
     center: { lat: -18.7478024, lng: -44.4253248 },
@@ -31,9 +23,6 @@ function initMap() {
     options
   );
 
-  // Bind the map's bounds (viewport) property to the autocomplete object,
-  // so that the autocomplete requests use the current map bounds for the
-  // bounds option in the request.
   autocomplete.bindTo("bounds", map);
 
   const infowindow = new google.maps.InfoWindow();
@@ -77,8 +66,6 @@ function initMap() {
     infowindow.open(map, marker);
   });
 
-  // Sets a listener on a radio button to change the filter type on Places
-  // Autocomplete.
   function setupClickListener(id, types) {
     const radioButton = document.getElementById(id);
 
@@ -98,10 +85,6 @@ function initMap() {
     if (biasInputElement.checked) {
       autocomplete.bindTo("bounds", map);
     } else {
-      // User wants to turn off location bias, so three things need to happen:
-      // 1. Unbind from map
-      // 2. Reset the bounds to whole world
-      // 3. Uncheck the strict bounds checkbox UI (which also disables strict bounds)
       autocomplete.unbind("bounds");
       autocomplete.setBounds({
         east: 180,
