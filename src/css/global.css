@@ -136,8 +136,8 @@ button {
   display: block;
   border: none;
   text-align:left;
-  width: 98%;
-  height: 16%;
+  width: 97%;
+  height: 10%;
   margin-bottom: 10px;
   margin: 15px;
   flex-direction:row-reverse;
@@ -190,9 +190,7 @@ button {
     border-radius: 10px;
 
   }
-  
-  
-  
+
   @media (max-width: 767px) {
     body {
       width: 100%;
