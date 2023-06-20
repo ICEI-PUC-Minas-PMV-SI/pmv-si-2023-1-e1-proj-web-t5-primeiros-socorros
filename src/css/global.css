@@ -4,8 +4,6 @@
   }
   body {
     
-      margin: 0;
-      padding: 0;
       background-color: lightcyan;
 
   }
@@ -53,7 +51,7 @@
 
 .card-img-top {
   padding: 0;
-  width: 100%;
+  width: 50%;
 }
 
 .card-text {
@@ -137,13 +135,13 @@ button {
 .media {
   display: block;
   border: none;
-  text-align: left;
-  width: 100%;
-  height: 10%;
+  text-align:left;
+  width: 98%;
+  height: 16%;
   margin-bottom: 10px;
-  margin: 7px;
+  margin: 15px;
   flex-direction:row-reverse;
-  justify-content:space-around;
+  justify-content:center;
   align-items: center;
   padding: 5px;
   padding-left: 30px;
