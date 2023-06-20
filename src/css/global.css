@@ -63,7 +63,7 @@
 
 
 .overlay {
-  margin: 30px;
+  margin-top: 70px;
   position:absolute;
   justify-content: center;
   top: 50%;
@@ -76,10 +76,11 @@
   opacity: 0.7;
   box-shadow: 0 5px 5px 0 rgba(44, 44, 44, 0.849);
   width: auto;
-  height: 100px;
+  height: 80px;
   color: #fff;
-  display: inline-block;
+  display:flex;
   padding: 15px;
+  justify-content: center;
   position:relative;
   font-weight: bold;
   font-size: 20pt;
