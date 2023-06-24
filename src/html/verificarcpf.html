@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Alteração de Senha</title>
+  <script>
+    function verificarCPF() {
+      var cpf = document.getElementById("cpf").value;
+      
+      // Remover caracteres especiais do CPF
+      cpf = cpf.replace(/[^\d]+/g, '');
+      
+      // Verificar se o CPF possui 11 dígitos
+      if (cpf.length !== 11) {
+        alert("CPF inválido! O CPF deve conter 11 dígitos.");
+        return false;
+      }
+      
+      // Verificar se todos os dígitos são iguais
+      if (/^(\d)\1+$/.test(cpf)) {
+        alert("CPF inválido! Não são permitidos CPFs com todos os dígitos iguais.");
+        return false;
+      }
+      
+      // Fazer a chamada para a API ou servidor para verificar o CPF e permitir a alteração de senha
+      
+      // Exemplo de requisição usando Fetch API
+      fetch('/verificar-cpf', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ cpf: cpf })
+      })
+      .then(response => response.json())
+      .then(data => {
+        if (data.valid) {
+          // CPF válido, redirecionar para a página de alteração de senha
+          window.location.href = 'alterar-senha.html';
+        } else {
+          // CPF inválido
+          alert("CPF inválido! O CPF não corresponde aos registros.");
+        }
+      })
+      .catch(error => {
+        console.error('Erro ao verificar o CPF:', error);
+        alert('Ocorreu um erro ao verificar o CPF. Por favor, tente novamente mais tarde.');
+      });
+    }
+  </script>
+</head>
+<body>
+  <h1>Alteração de Senha</h1>
+  <label for="cpf">CPF:</label>
+  <input type="text" id="cpf" maxlength="14">
+  <button onclick="verificarCPF()">Verificar CPF</button>
+</body>
+</html>
