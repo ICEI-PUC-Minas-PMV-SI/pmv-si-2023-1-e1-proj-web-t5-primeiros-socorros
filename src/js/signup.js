@@ -7,6 +7,7 @@ let labelNome = document.querySelector('#labelNome')
 let validNome = false
 
 let usuario = document.querySelector('#usuario')
+let cpf = document.querySelector('#cpf')
 let labelUsuario = document.querySelector('#labelUsuario')
 let validUsuario = false
 
@@ -24,6 +25,21 @@ let validConfirmSenha = false
 
 let msgError = document.querySelector('#msgError')
 let msgSuccess = document.querySelector('#msgSuccess')
+
+function mascara(i){
+   
+  var v = i.value;
+  
+  if(isNaN(v[v.length-1])){ // impede entrar outro caractere que não seja número
+     i.value = v.substring(0, v.length-1);
+     return;
+  }
+  
+  i.setAttribute("maxlength", "14");
+  if (v.length == 3 || v.length == 7) i.value += ".";
+  if (v.length == 11) i.value += "-";
+
+}
 
 nome.addEventListener('keyup', () => {
   if(nome.value.length <= 2){
@@ -89,7 +105,8 @@ function cadastrar(){
     {
       nomeCad: nome.value,
       userCad: usuario.value,
-      senhaCad: senha.value
+      senhaCad: senha.value,
+      cpfCad: cpf.value
     }
     )
     
