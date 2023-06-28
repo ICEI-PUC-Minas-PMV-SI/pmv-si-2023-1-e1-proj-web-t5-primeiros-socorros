@@ -4,145 +4,118 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- BOOSTRAP e JQUERY -->
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" /> 
     <title>Relatório de Glicemia</title>
     <link rel="stylesheet" href="../css/relatoriodeglicemia.css">
 </head>
 <body>
     <header>
         <nav>
-          <a href="../index.html"><img src="../assets/imagem/heart.png" height="70" width="70"></a>
+          <a href="../index.html"><img src="../assets/imagem/heart.png" height="60" width="64"></a>
             <a class="logo" href="../index.html">PrimeiroSaúde</a>
             <ul class="nav-list">
                  <div class="login-bottom">
-                <li><a href="../html/signin.html"><img src="../assets/imagem/iconlogin.png" alt="iconlogin" height="40" width="40"></a>
+                    <a href="../index.html"><img src="../assets/imagem/iconlogout.png" height="30" width="30"></a>
                 </div>
-                </li>
             </ul>
         </nav>
-    <table>
-        <thead>
-          <tr>
-              <th>Data</th>
-              <th>Hora</th>
-              <th>Índice</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><form>
-            <input type="date" id="data" name="data">
-            </form></td>
-            <td><form>
-            <input type="time" id="hora" name="hora">
-            </form></td>
-            <td><form>
-            <input type="float" id="float" name="float">
-            </form</td>
-          </tr>
-          <tr>
-            <td><form>
-            <input type="date" id="data" name="data">
-            </form></td>
-            <td><form>
-            <input type="time" id="hora" name="hora">
-            </form></td>
-            <td><form>
-            <input type="float" id="float" name="float">
-            </form</td>
-          </tr>
-          <tr>
-            <td><form>
-            <input type="date" id="data" name="data">
-            </form></td>
-            <td><form>
-            <input type="time" id="hora" name="hora">
-            </form></td>
-            <td><form>
-            <input type="float" id="float" name="float">
-            </form</td>
-          </tr>
-          <tr>
-            <td><form>
-            <input type="date" id="data" name="data">
-            </form></td>
-            <td><form>
-            <input type="time" id="hora" name="hora">
-            </form></td>
-            <td><form>
-            <input type="float" id="float" name="float">
-            </form</td>
-          </tr>
-          <tr>
-            <td><form>
-            <input type="date" id="data" name="data">
-            </form></td>
-            <td><form>
-            <input type="time" id="hora" name="hora">
-            </form></td>
-            <td><form>
-            <input type="float" id="float" name="float">
-            </form</td>
-          </tr>
-          <tr>
-            <td><form>
-            <input type="date" id="data" name="data">
-            </form></td>
-            <td><form>
-            <input type="time" id="hora" name="hora">
-            </form></td>
-            <td><form>
-            <input type="float" id="float" name="float">
-            </form</td>
-          </tr>
-          <tr>
-            <td><form>
-            <input type="date" id="data" name="data">
-            </form></td>
-            <td><form>
-            <input type="time" id="hora" name="hora">
-            </form></td>
-            <td><form>
-            <input type="float" id="float" name="float">
-            </form</td>
-          </tr>
-          <tr>
-            <td><form>
-            <input type="date" id="data" name="data">
-            </form></td>
-            <td><form>
-            <input type="time" id="hora" name="hora">
-            </form></td>
-            <td><form>
-            <input type="float" id="float" name="float">
-            </form</td>
-          </tr>
-          <tr>
-            <td><form>
-            <input type="date" id="data" name="data">
-            </form></td>
-            <td><form>
-            <input type="time" id="hora" name="hora">
-            </form></td>
-            <td><form>
-            <input type="float" id="float" name="float">
-            </form</td>
-          </tr>
-          <tr>
-            <td><form>
-            <input type="date" id="data" name="data">
-            </form></td>
-            <td><form>
-            <input type="time" id="hora" name="hora">
-            </form></td>
-            <td><form>
-            <input type="float" id="float" name="float">
-            </form</td>
-          </tr>
-        </tbody>
-      </table>
-      <div class='btn-enviar4'>
-        <button onclick='enviar()'>Gerar relatório</button>
+    </header>        
+
+    <div class="container">
+        <br />
+        <h2>
+            Registros Gerais
+            <a onclick="getProduto(0)" class="btn btn-success btn-sm" style="float:right"
+                data-toggle="modal" data-target="#produto-modal">
+                <i class="fa fa-plus"></i> Adicionar
+            </a>
+        </h2>
+        <hr />
+        <div class="row">
+            <div class="col-12">
+                <table class="table">
+                    <thead>
+                        <tr>
+                            <th width=5%>#</th>
+                            <th width=30%>Data</th>
+                            <th width=15%>Hora</th>
+                            <th width=15%>Índice</th>
+                            <th width=20%></th>
+                        </tr>
+                    </thead>
+                    <tbody id='produto-list'>
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </div>
-      </div>
+
+    <!--
+            Modal apresentada para solicitar confirmação do usuário quanto à remoção dos dados
+        -->
+    <div class="modal fade" id="modal-delete" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Confirmação de remoção</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Você realmente deseja remover o produto <span id="id-prod"></span>?
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Não</button>
+                    <button type="button" class="btn btn-primary" id="btn-delete">Sim</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  Modal apresentada para solicitar os dados para preenchimento do formulário -->
+
+    <div class="modal fade" id="produto-modal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Adição <span id="edit-prod-id"></span></h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="produto-form" method="post" action="">
+                        <div class="form-group">
+                            <label for="produto-id" class="col-form-label">Código:</label>
+                            <input type="number" class="form-control" id="produto-id" min="1" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="produto-date" class="col-form-label">Data:</label>
+                            <input type="date" class="form-control" id="produto-date" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="produto-time" class="col-form-label">Valor:</label>
+                            <input type="time"  class="form-control" id="produto-time" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="produto-vlr" class="col-form-label">Índice:</label>
+                            <input type="number" step="0.01" class="form-control" id="produto-vlr" required>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancelar</button>
+                            <button type="submit" class="btn btn-primary">Salvar</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="main.js"></script>
 </body>
 </html>
