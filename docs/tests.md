@@ -97,70 +97,85 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção de dados válidos para pesquisa.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT05 - Acessando área dos Primeiros Socorros - Parte 1*
+**Caso de Teste** | **CT08 - Acessando área dos Primeiros Socorros - Parte 1*
  :--------------: | ------------
 **Procedimento**  | 1) Usuário acessa a área de login e informa "nome de usuário", senha e clica no botão "Entrar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br>
-**Requisitos associados** | RF-006
+**Requisitos associados** | RF-005
 **Resultado esperado** | Prosseguir para a área dos Pronto-Socorros.
 **Dados de entrada** | Inserção de dados válidos no formulário de login.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT06 - Acessando área dos Primeiros Socorros - Parte 2*
+**Caso de Teste** | **CT09 - Acessando área dos Primeiros Socorros - Parte 2*
  :--------------: | ------------
 **Procedimento**  | 1) Usuário(Fazendo login ou não) clica em "Guia de Primeiros Socorros".<br>  
+**Requisitos associados** | RF-005
+**Resultado esperado** | Acessar a página  dos Primeiros Socorros.
+**Dados de entrada** | Nenhum.
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT10 - Acessando área dos Prevenção de Acidentes Domésticos - Parte 1*
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário acessa a área de login e informa "nome de usuário", senha e clica no botão "Entrar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br>
+**Requisitos associados** | RF-006
+**Resultado esperado** | Prosseguir para a área dos Pronto-Socorros.
+**Dados de entrada** | Inserção de dados válidos no formulário de login.
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT11 - Acessando área dos Prevenção de Acidentes Domésticos - Parte 2*
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário(Fazendo login ou não) clica em "Previna acidentes domésticos".<br> 
 **Requisitos associados** | RF-006
 **Resultado esperado** | Acessar a página  dos Primeiros Socorros.
 **Dados de entrada** | Nenhum.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT07 - Acessando área dos Prevenção de Acidentes Domésticos - Parte 1*
+**Caso de Teste** | **CT12 - Acessando área dos Telefones Úteis - Parte 1*
  :--------------: | ------------
 **Procedimento**  | 1) Usuário acessa a área de login e informa "nome de usuário", senha e clica no botão "Entrar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br>
 **Requisitos associados** | RF-007
-**Resultado esperado** | Prosseguir para a área dos Pronto-Socorros.
-**Dados de entrada** | Inserção de dados válidos no formulário de login.
-**Resultado obtido** | Sucesso.
-
-**Caso de Teste** | **CT08 - Acessando área dos Prevenção de Acidentes Domésticos - Parte 2*
- :--------------: | ------------
-**Procedimento**  | 1) Usuário(Fazendo login ou não) clica em "Previna acidentes domésticos".<br> 
-**Requisitos associados** | RF-007
-**Resultado esperado** | Acessar a página  dos Primeiros Socorros.
-**Dados de entrada** | Nenhum.
-**Resultado obtido** | Sucesso.
-
-**Caso de Teste** | **CT09 - Acessando área dos Telefones Úteis - Parte 1*
- :--------------: | ------------
-**Procedimento**  | 1) Usuário acessa a área de login e informa "nome de usuário", senha e clica no botão "Entrar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br>
-**Requisitos associados** | RF-008
 **Resultado esperado** | Prosseguir para a área dos Telefones Úteis.
 **Dados de entrada** | Inserção de dados válidos no formulário de login.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT010 - Acessando área dos Telefones Úteis - Parte 2*
+**Caso de Teste** | **CT13 - Acessando área dos Telefones Úteis - Parte 2*
  :--------------: | ------------
 **Procedimento**  | 1) Usuário(Fazendo login ou não) clica em "Emergência".<br> 
-**Requisitos associados** | RF-008
+**Requisitos associados** | RF-007
 **Resultado esperado** | Acessar a página  dos Telefones Úteis.
 **Dados de entrada** | Nenhum.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT011 - Acessando área dos Primeiros Socorros - Parte 1*
+**Caso de Teste** | **CT14 - Acessando área dos Primeiros Socorros - Parte 1*
  :--------------: | ------------
 **Procedimento**  | 1) Usuário acessa a área de login e informa "nome de usuário", senha e clica no botão "Entrar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br>
-**Requisitos associados** | RF-009
+**Requisitos associados** | RF-008
 **Resultado esperado** | Prosseguir para a área dos Pronto-Socorros.
 **Dados de entrada** | Inserção de dados válidos no formulário de login.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT012 - Acessando área dos Primeiros Socorros - Parte 2*
+**Caso de Teste** | **CT15 - Acessando área dos Primeiros Socorros - Parte 2*
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário(Fazendo login ou não) clica em "Guia de Primeiros Socorros".<br>  
+**Requisitos associados** | RF-008
+**Resultado esperado** | Acessar a página com os Cuidados Paliativos.
+**Dados de entrada** | Nenhum.
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT16 - Acessando área do Relatório de Glicemia - Parte 1*
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário clica na área de "Controle Glicêmico".<br>2) Usuário acessa a área da página inicial, acessa a área de login de login e informa "nome de usuário", senha e clica no botão "Entrar".<br> 3) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 4) O usuário retorna ao menu e clica em "Gerar relatório Glicêmico".
+**Requisitos associados** | RF-009
+**Resultado esperado** | Prosseguir para a área "Relatório Glicemia".
+**Dados de entrada** | Inserção de dados válidos no formulário de login.
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT17 - Acessando área do Relatório de Glicemia - Parte 2*
  :--------------: | ------------
 **Procedimento**  | 1) Usuário(Fazendo login ou não) clica em "Guia de Primeiros Socorros".<br>  
 **Requisitos associados** | RF-009
 **Resultado esperado** | Acessar a página  dos Primeiros Socorros.
 **Dados de entrada** | Nenhum.
 **Resultado obtido** | Sucesso.
-
 
 
 
