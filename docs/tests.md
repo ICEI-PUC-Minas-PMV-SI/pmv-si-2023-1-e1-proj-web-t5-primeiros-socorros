@@ -73,20 +73,28 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Nenhum.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT05 - Acessando área dos Primeiros Socorros - Parte 1*
+**Caso de Teste** | **CT05 - Acessando área do Mapa - Parte 1*
  :--------------: | ------------
 **Procedimento**  | 1) Usuário acessa a área de login e informa "nome de usuário", senha e clica no botão "Entrar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br>
-**Requisitos associados** | RF-009
-**Resultado esperado** | Prosseguir para a área dos Pronto-Socorros.
+**Requisitos associados** | RF-003
+**Resultado esperado** | Prosseguir para a área do Mapa.
 **Dados de entrada** | Inserção de dados válidos no formulário de login.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT06 - Acessando área dos Primeiros Socorros - Parte 2*
+**Caso de Teste** | **CT06 - Pesquisando na área do Mapa - Parte 2*
  :--------------: | ------------
-**Procedimento**  | 1) Usuário(Fazendo login ou não) clica em "Guia de Primeiros Socorros".<br>  
-**Requisitos associados** | RF-009
-**Resultado esperado** | Acessar a página  dos Primeiros Socorros.
-**Dados de entrada** | Nenhum.
+**Procedimento**  | 1) Usuário(Fazendo login ou não) clica em "Clique Aqui".<br>2) Usuário insere no campo de pesquisa um local, endereço, bairro, cidade, hospital, etc.<br>3) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br>4) A aplicação armazena os dados e direciona o usuário para a área pesquisada no mapa.
+**Requisitos associados** | RF-003
+**Resultado esperado** | Pesquisar no campo de pesquisa do Mapa.
+**Dados de entrada** | Inserção de dados válidos para pesquisa.
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT07 - Navegando pela área do Mapa - Parte 3*
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário poderá arrastar o ícone "Pegman" para uma devida área.<br>2) A aplicação disponibiliza quais áreas são possíveis. <br>3) A aplicação armazena os dados e direciona o usuário para a área pesquisada no mapa.<br>
+**Requisitos associados** | RF-003
+**Resultado esperado** | Acessar área do Mapa.
+**Dados de entrada** | Inserção de dados válidos para pesquisa.
 **Resultado obtido** | Sucesso.
 
 **Caso de Teste** | **CT05 - Acessando área dos Primeiros Socorros - Parte 1*
