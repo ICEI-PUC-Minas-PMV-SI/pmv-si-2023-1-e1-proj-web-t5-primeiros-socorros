@@ -161,7 +161,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Nenhum.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT16 - Acessando área do Relatório de Glicemia - Parte 1*
+**Caso de Teste** | **CT16 - Acessando área do Relatório de Glicemia*
  :--------------: | ------------
 **Procedimento**  | 1) Usuário clica na área de "Controle Glicêmico".<br>2) Usuário acessa a área da página inicial, acessa a área de login de login e informa "nome de usuário", senha e clica no botão "Entrar".<br> 3) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 4) O usuário retorna ao menu e clica em "Gerar relatório Glicêmico".
 **Requisitos associados** | RF-009
@@ -169,11 +169,27 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção de dados válidos no formulário de login.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT17 - Acessando área do Relatório de Glicemia - Parte 2*
+**Caso de Teste** | **CT17 - Editando os registros de glicemia - Parte 1*
  :--------------: | ------------
-**Procedimento**  | 1) Usuário(Fazendo login ou não) clica em "Guia de Primeiros Socorros".<br>  
-**Requisitos associados** | RF-009
-**Resultado esperado** | Acessar a página  dos Primeiros Socorros.
+**Procedimento**  | 1) Usuário acessa a área de relatório.<br> 2) Usuário clica no botão de "editar" e altera as informações inseridas através do modal.<br> 3) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br>   
+**Requisitos associados** | RF-010
+**Resultado esperado** | Edição dos registros de glicemia.
+**Dados de entrada** | Inserção de dados válidos nos formulários de Data, Hora e Índice.
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT18 - Editando os registros de glicemia - Parte 2*
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário acessa a área de relatório.<br> 2) Usuário clica no botão de "deletar".<br>  
+**Requisitos associados** | RF-010
+**Resultado esperado** | Exclusão dos registros de glicemia.
+**Dados de entrada** | Nenhum.
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT19 - Botão de Log out*
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário acessa a área de relatório.<br> 2) Usuário clica no botão de "log out" e sai da página.<br>   
+**Requisitos associados** | RF-011
+**Resultado esperado** | Fazer log out na página relatório de glicemia.
 **Dados de entrada** | Nenhum.
 **Resultado obtido** | Sucesso.
 
