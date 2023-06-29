@@ -41,7 +41,7 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |RF-007| A aplicação deve disponibilizar números telefônicos destinados a casos de emergência para usuários visitantes e cadastrados..| ALTA | |
 |RF-008| A aplicação deve instruir o usuário cadastrado ou visitante a realizar curativos paliativos. | ALTA | |
 |RF-009| A aplicação deve permitir que o usuário cadastrado faça login utilizando seu e-mail e senha para ter acesso ao "Relatório de Glicemia. | ALTA | |
-|RF-010| A aplicação deve permitir que o usuário edite e exclua informações de glicemia inseridas.| ALTA | |
+|RF-010| A aplicação deve permitir que o usuário edite e exclua registros de glicemia inseridos.| ALTA | |
 |RF-011| A aplicação deverá disponibilizar um botão de logout na página de "Registro de Glicemia" caso o usuário cadastrado deseje sair da página. | ALTA | |
 |RF-012| A aplicação deverá disponibilizar a recuperação da senha por meio de envio com instruções para o e-mail do usuário cadastrado. | ALTA | |
 |RF-013| A aplicação deve permitir que o usuário visitante ou cadastrado acesse o guia de emergência, sem ter que fazer cadastro. | ALTA | |
@@ -56,7 +56,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |RNF-002| A aplicação deve permitir que o usuário visitante acesse o guia de emergência sem ter que fazer cadastro. | ALTA | |
 |RNF-003| A aplicação deve utilizar uma API que conecte o usuário ao google maps.| ALTA | |
 |RNF-004| A aplicação deve solicitar o cadastro para efetuar o registro do usuário visitante. | ALTA | |
-|RNF-005| A aplicação deve utilzar uma API de acessibilidade que leia o conteúdo da página para pessoas cegas e que não saibam ler. | ALTA | |
 
 
 
