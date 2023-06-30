@@ -23,7 +23,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-011| A aplicação deve permitir que o usuário cadastrado faça login utilizando seu e-mail e senha para ter acesso ao "Relatório de Glicemia.	| Lucas | paginicialglicemia.html |
 |RF-012| A aplicação deve produzir um relatório com as informações de glicemia inseridas somente pelo usuário cadastrado.	| Lucas | relatorioglicemia.html |	
 |RF-013| A aplicação deverá disponibilizar um botão de logout na página de "Registro de Glicemia" caso o usuário cadastrado deseje sair da página. | Lucas | paginicialglicemia.html |
-|RF-014| A aplicação deverá disponibilizar a recuperação da senha por meio de envio com instruções para o e-mail do usuário cadastrado.	|Lorena| esqueceusuasenha.html |	
+|RF-014| A aplicação deverá disponibilizar a alteração da senha por meio da verificação do CPF do usuário cadastrado.	|Lorena| esqueceusuasenha.html |	
 |RF-015| A aplicação deve permitir que o usuário visitante ou cadastrado acesse o guia de emergência, sem ter que fazer cadastro.	|| cadastro-noticia.html |	
 |RF-016| A aplicação deve utilizar um registro que permita que o usuário cadastrado realize o login para que tenha acesso diaramente ao registro dos níveis de glicose	| Lucas |  paginicialglicemia.html |
 
