@@ -25,26 +25,26 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito  Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
 
 
-**Caso de Teste** | **CT01 - Criar conta parte 1**
+**Caso de Teste** | **CT01 - Gerando um cadastro**
  :--------------: | ------------
-**Procedimento**  | 1) Usuário informa nome, sobrenome, email, senha, Estado e Cidade e clica no botão "Continuar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.
-**Requisitos associados** | RF-001
-**Resultado esperado** | Prosseguir para a parte 2 do cadastro.
+**Procedimento**  | 1) Usuário acessa o ícone de login e depois clica em "Cadastre-se".<br> 2) O usuário insere as informações no formulário. <br> 3) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam. <br>
+**Requisitos associados** | RF-015 & RNF-004
+**Resultado esperado** | Gerar um cadastro.
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT02 - Criar conta parte 2**
+**Caso de Teste** | **CT02 - Recuperar a senha**
  :--------------: | ------------
-**Procedimento**  | 1) Usuário informa gênero, seu tipo de usuário (cuidador ou comum), data de nascimento e clica em criar.<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 3) A aplicação armazena os dados e direciona o usuário para a tela de login.
-**Requisitos associados** | RF-001
-**Resultado esperado** | Criação de cadastro
-**Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
+**Procedimento**  | 1) Usuário acessa a área de login e clica em "Esqueceu a senha?".<br> 2) O usuário insere o seu CPF.<br> 3) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 4) O usuário insere a nova senha 5) A aplicação verifica se os dados são válidos, os amazena e direciona o usuário para a tela de login.
+**Requisitos associados** | RF-012 
+**Resultado esperado** | Recuperção de senha
+**Dados de entrada** | Inserção de dados válidos no formulário de esqueceu a senha.
 **Resultado obtido** | Sucesso.
 
 **Caso de Teste** | **CT03 - Acessando área de Sintomas - Parte 1*
  :--------------: | ------------
 **Procedimento**  | 1) Usuário acessa a área de login e informa "nome de usuário", senha e clica no botão "Entrar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br>
-**Requisitos associados** | RF-001
+**Requisitos associados** | RF-001 & RF-004
 **Resultado esperado** | Prosseguir para a área de Sintomas.
 **Dados de entrada** | Inserção de dados válidos no formulário de login.
 **Resultado obtido** | Sucesso.
@@ -52,17 +52,15 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Caso de Teste** | **CT04 - Acessando área de Sintomas - Parte 2*
  :--------------: | ------------
 **Procedimento**  | 1) Usuário(Fazendo login ou não) clica em "Guia Informativo Sobre Sintomas".<br> 2) Em seguida, clica nos ícone relacionados ao AVC, acessando então o informativo dos sintomas.<br> 3)  Em seguida, retorna ao menu principal e realiza o mesmo procedimento para as outras seções.<br>
-**Requisitos associados** | RF-001
+**Requisitos associados** | RF-001 
 **Resultado esperado** | Acessar a página  dos Sintomas.
 **Dados de entrada** | Nenhum.
 **Resultado obtido** | Sucesso.
 
-
-
 **Caso de Teste** | **CT05 - Acessando área do Mapa - Parte 1*
  :--------------: | ------------
 **Procedimento**  | 1) Usuário acessa a área de login e informa "nome de usuário", senha e clica no botão "Entrar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br>
-**Requisitos associados** | RF-003
+**Requisitos associados** | RF-003, RNF-003 & RF-004
 **Resultado esperado** | Prosseguir para a área do Mapa.
 **Dados de entrada** | Inserção de dados válidos no formulário de login.
 **Resultado obtido** | Sucesso.
@@ -70,7 +68,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Caso de Teste** | **CT06 - Pesquisando na área do Mapa - Parte 2*
  :--------------: | ------------
 **Procedimento**  | 1) Usuário(Fazendo login ou não) clica em "Clique Aqui".<br>2) Usuário insere no campo de pesquisa um local, endereço, bairro, cidade, hospital, etc.<br>3) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br>4) A aplicação armazena os dados e direciona o usuário para a área pesquisada no mapa.
-**Requisitos associados** | RF-003
+**Requisitos associados** | RF-003 & RNF-003
 **Resultado esperado** | Pesquisar no campo de pesquisa do Mapa.
 **Dados de entrada** | Inserção de dados válidos para pesquisa.
 **Resultado obtido** | Sucesso.
@@ -78,7 +76,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Caso de Teste** | **CT07 - Navegando pela área do Mapa - Parte 3*
  :--------------: | ------------
 **Procedimento**  | 1) Usuário poderá arrastar o ícone "Pegman" para uma devida área.<br>2) A aplicação disponibiliza quais áreas são possíveis. <br>3) A aplicação armazena os dados e direciona o usuário para a área pesquisada no mapa.<br>
-**Requisitos associados** | RF-003
+**Requisitos associados** | RF-003 & RNF-003
 **Resultado esperado** | Acessar área do Mapa.
 **Dados de entrada** | Inserção de dados válidos para pesquisa.
 **Resultado obtido** | Sucesso.
@@ -86,7 +84,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Caso de Teste** | **CT08 - Acessando área dos Primeiros Socorros - Parte 1*
  :--------------: | ------------
 **Procedimento**  | 1) Usuário acessa a área de login e informa "nome de usuário", senha e clica no botão "Entrar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br>
-**Requisitos associados** | RF-005
+**Requisitos associados** | RF-013, RF-004, RF-002, RF-005 & RF-008
 **Resultado esperado** | Prosseguir para a área dos Pronto-Socorros.
 **Dados de entrada** | Inserção de dados válidos no formulário de login.
 **Resultado obtido** | Sucesso.
@@ -94,7 +92,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Caso de Teste** | **CT09 - Acessando área dos Primeiros Socorros - Parte 2*
  :--------------: | ------------
 **Procedimento**  | 1) Usuário(Fazendo login ou não) clica em "Guia de Primeiros Socorros".<br>  
-**Requisitos associados** | RF-005
+**Requisitos associados** | RF-002, RNF-002, RF-005, RF-013 & RF-008
 **Resultado esperado** | Acessar a página  dos Primeiros Socorros.
 **Dados de entrada** | Nenhum.
 **Resultado obtido** | Sucesso.
@@ -102,7 +100,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Caso de Teste** | **CT10 - Acessando área dos Prevenção de Acidentes Domésticos - Parte 1*
  :--------------: | ------------
 **Procedimento**  | 1) Usuário acessa a área de login e informa "nome de usuário", senha e clica no botão "Entrar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br>
-**Requisitos associados** | RF-006
+**Requisitos associados** | RF-006 & RF-004
 **Resultado esperado** | Prosseguir para a área dos Pronto-Socorros.
 **Dados de entrada** | Inserção de dados válidos no formulário de login.
 **Resultado obtido** | Sucesso.
@@ -118,7 +116,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Caso de Teste** | **CT12 - Acessando área dos Telefones Úteis - Parte 1*
  :--------------: | ------------
 **Procedimento**  | 1) Usuário acessa a área de login e informa "nome de usuário", senha e clica no botão "Entrar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br>
-**Requisitos associados** | RF-007
+**Requisitos associados** | RF-007 & RF-004
 **Resultado esperado** | Prosseguir para a área dos Telefones Úteis.
 **Dados de entrada** | Inserção de dados válidos no formulário de login.
 **Resultado obtido** | Sucesso.
@@ -131,39 +129,23 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Nenhum.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT14 - Acessando área dos Primeiros Socorros - Parte 1*
- :--------------: | ------------
-**Procedimento**  | 1) Usuário acessa a área de login e informa "nome de usuário", senha e clica no botão "Entrar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br>
-**Requisitos associados** | RF-008
-**Resultado esperado** | Prosseguir para a área dos Pronto-Socorros.
-**Dados de entrada** | Inserção de dados válidos no formulário de login.
-**Resultado obtido** | Sucesso.
-
-**Caso de Teste** | **CT15 - Acessando área dos Primeiros Socorros - Parte 2*
- :--------------: | ------------
-**Procedimento**  | 1) Usuário(Fazendo login ou não) clica em "Guia de Primeiros Socorros".<br>  
-**Requisitos associados** | RF-008
-**Resultado esperado** | Acessar a página com os Cuidados Paliativos.
-**Dados de entrada** | Nenhum.
-**Resultado obtido** | Sucesso.
-
-**Caso de Teste** | **CT16 - Acessando área do Relatório de Glicemia*
+**Caso de Teste** | **CT14 - Acessando área do Relatório de Glicemia*
  :--------------: | ------------
 **Procedimento**  | 1) Usuário clica na área de "Controle Glicêmico".<br>2) Usuário acessa a área da página inicial, acessa a área de login de login e informa "nome de usuário", senha e clica no botão "Entrar".<br> 3) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 4) O usuário retorna ao menu e clica em "Gerar relatório Glicêmico".
-**Requisitos associados** | RF-009
+**Requisitos associados** | RF-014, RF-009 & RF-004
 **Resultado esperado** | Prosseguir para a área "Relatório Glicemia".
 **Dados de entrada** | Inserção de dados válidos no formulário de login.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT17 - Editando os registros de glicemia - Parte 1*
+**Caso de Teste** | **CT15 - Editando os registros de glicemia - Parte 1*
  :--------------: | ------------
 **Procedimento**  | 1) Usuário acessa a área de relatório.<br> 2) Usuário clica no botão de "editar" e altera as informações inseridas através do modal.<br> 3) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br>   
-**Requisitos associados** | RF-010
+**Requisitos associados** | RF-010 & RF-014
 **Resultado esperado** | Edição dos registros de glicemia.
 **Dados de entrada** | Inserção de dados válidos nos formulários de Data, Hora e Índice.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT18 - Editando os registros de glicemia - Parte 2*
+**Caso de Teste** | **CT16 - Editando os registros de glicemia - Parte 2*
  :--------------: | ------------
 **Procedimento**  | 1) Usuário acessa a área de relatório.<br> 2) Usuário clica no botão de "deletar".<br>  
 **Requisitos associados** | RF-010
@@ -171,24 +153,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Nenhum.
 **Resultado obtido** | Sucesso.
 
-
-**Caso de Teste** | **CT19 - Acessando área dos Primeiros Socorros - Parte 1*
- :--------------: | ------------
-**Procedimento**  | 1) Usuário acessa a área de login e informa "nome de usuário", senha e clica no botão "Entrar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br>
-**Requisitos associados** | RF-002
-**Resultado esperado** | Prosseguir para a área dos Pronto-Socorros.
-**Dados de entrada** | Inserção de dados válidos no formulário de login.
-**Resultado obtido** | Sucesso.
-
-**Caso de Teste** | **CT20 - Acessando área dos Primeiros Socorros - Parte 2*
- :--------------: | ------------
-**Procedimento**  | 1) Usuário(Fazendo login ou não) clica em "Guia de Primeiros Socorros".<br> 2) Em seguida, clica nos ícone relacionados ao Primeiros Socorros, acessando então o informativo dos Primeiros Socorros.<br> 
-**Requisitos associados** | RF-002
-**Resultado esperado** | Acessar a página  dos Primeiros Socorros.
-**Dados de entrada** | Nenhum.
-**Resultado obtido** | Sucesso.
-
-**Caso de Teste** | **CT21 - Botão de Log out*
+**Caso de Teste** | **CT17 - Botão de Log out*
  :--------------: | ------------
 **Procedimento**  | 1) Usuário acessa a área de relatório.<br> 2) Usuário clica no botão de "log out" e sai da página.<br>   
 **Requisitos associados** | RF-011
@@ -196,7 +161,13 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Nenhum.
 **Resultado obtido** | Sucesso.
 
-
+**Caso de Teste** | **CT18 - Responsividade*
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário acessa a aplicação por meio de um dispositivo móvel.<br>    
+**Requisitos associados** | RNF-001
+**Resultado esperado** | Visualização do site.
+**Dados de entrada** | Nenhum.
+**Resultado obtido** | Sucesso.
 
 ## Registro dos Testes de Software
 
