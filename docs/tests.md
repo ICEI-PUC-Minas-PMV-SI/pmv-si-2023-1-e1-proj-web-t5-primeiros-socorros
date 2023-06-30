@@ -161,7 +161,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Nenhum.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT18 - Responsividade*
+**Caso de Teste** | **CT18 - Dsipositivo móvel*
  :--------------: | ------------
 **Procedimento**  | 1) Usuário acessa a aplicação por meio de um dispositivo móvel.<br>    
 **Requisitos associados** | RNF-001
@@ -173,16 +173,14 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
 
-|*Caso de Teste*                                 |* CT01 - Criar conta parte 1*  |
+|*Caso de Teste*                                 |* CT01 - Gerando cadastro* |
 |---|---|
-|Requisito Associado |  RF-015 - Usuários não autenticados podem se cadastrar para criar uma conta e serem autenticados.|
+|Requisito Associado | RF-015 & RNF-004 - Usuários não autenticados podem se cadastrar para criar uma conta e serem autenticados.|
 |Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128104293/56e019e5-1b91-424a-99cb-eb7552ef8853| 
 
-|*Caso de Teste*                                 |*CT02 - Criar conta parte 2* |
-
-|*Caso de Teste*                                 |*CT03 - Acessando área de Sintomas - Parte 1*  |
+|*Caso de Teste*                                 |*CT03 - Acessando área de Sintomas - Parte 1* |
 |---|---|
-|Requisito Associado | RF-001 - Disponibilizar um informativo sobre sintomas de infarto,AVC, ansiedade e queda de glicemia para usuários cadastrados.|
+|Requisito Associado | RF-001 & RF-004 - Disponibilizar um informativo sobre sintomas de infarto,AVC, ansiedade e queda de glicemia para usuários cadastrados.|
 |Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128104293/8242f464-7ad9-4889-8e4f-5ff00c42f146| 
 
  |*Caso de Teste*                                 |*CT04 - Acessando área de Sintomas - Parte 2* |
@@ -190,22 +188,30 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Requisito Associado | RF-001 - Disponibilizar um informativo sobre sintomas de infarto,AVC, ansiedade e queda de glicemia para usuários não cadastrados.|
 |Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128104293/afd9c3fd-cd2d-4aaa-896e-c80ef57ade5c| 
 
-|*Caso de Teste*                                 |*CT05 - Acessando área do Mapa - Parte 1* |
+ |*Caso de Teste*                                 |*CT08 - Acessando área dos Primeiros Socorros* |
 |---|---|
-|Requisito Associado | RF-003 -  Disponibilizar um mapa mostrando os hospitais mais próximos, para usuários cadastrados ou visitantes.|
+|Requisito Associado | RNF-002, RF-013, RF-004, RF-002, RF-005 & RF-008 - Disponibilizar um informativo sobre sintomas de infarto,AVC, ansiedade e queda de glicemia para usuários não cadastrados.|
+|Link do vídeo do teste realizado: | | 
+
+|*Caso de Teste*                                 |*CT05 & CT06- Acessando área do Mapa - Parte 1* |
+|---|---|
+|Requisito Associado | RF-003, RNF-003 & RF-004 -  Disponibilizar um mapa mostrando os hospitais mais próximos, para usuários cadastrados ou visitantes.|
 |Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128104293/c41e1f89-1f8b-453c-afae-6f9da0532c00| 
+
+|*Caso de Teste*                                 |*CT07 - Navegando pela área do Mapa - Parte 2* |
+|---|---|
+|Requisito Associado | RF-003, RNF-003 & RF-004 -  Usuário poderá arrastar o ícone "Pegman" para uma devida área, tanto para usuários cadastrados ou visitantes.|
+|Link do vídeo do teste realizado: | | 
 
 |*Caso de Teste*                                 |*CT10 - Acessando área dos Prevenção de Acidentes Domésticos - Parte 1* |
 |---|---|
-|Requisito Associado | RF-006 - A aplicação deve fornecer informações detalhadas e relevantes sobre como prevenir acidentes domésticos para usuários cadastrados.|
+|Requisito Associado | RF-006 & RF-004 - A aplicação deve fornecer informações detalhadas e relevantes sobre como prevenir acidentes domésticos para usuários cadastrados.|
 |Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128104293/319e0807-68cf-4656-a131-4db87fe23119|
 
-|*Caso de Teste*                                 |*CT11 - Acessando área dos Prevenção de Acidentes Domésticos - Parte 1* |
+|*Caso de Teste*                                 |*CT11 - Acessando área dos Prevenção de Acidentes Domésticos - Parte 2* |
 |---|---|
 |Requisito Associado | RF-006 - A aplicação deve fornecer informações detalhadas e relevantes sobre como prevenir acidentes domésticos para usuários não cadastrados.|
 |Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128104293/bc0b314f-a732-40a1-a2cb-dcec14767635|
-
-
 
 
 ## Avaliação dos Testes de Software
