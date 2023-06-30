@@ -219,6 +219,14 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Requisito Associado | RF-001 - Disponibilizar um informativo sobre sintomas de infarto,AVC, ansiedade e queda de glicemia para usuários não cadastrados.|
 |Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128104293/afd9c3fd-cd2d-4aaa-896e-c80ef57ade5c| 
 
+|*Caso de Teste*                                 |*CT05 - Acessando área do Mapa - Parte 1* |
+|---|---|
+|Requisito Associado | RF-003 -  Disponibilizar um mapa mostrando os hospitais mais próximos, para usuários cadastrados ou visitantes..|
+|Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128104293/c41e1f89-1f8b-453c-afae-6f9da0532c00| 
+
+
+
+
 
 ## Avaliação dos Testes de Software
 
