@@ -25,7 +25,7 @@ Nesta seção o grupo deverá documentar os testes de software que verificam a c
 Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe qual o Requisito  Funcional ou não funcional que ele está verificando. Associe também a página (ou artefato) onde o teste será realizado e descreva o cenário do teste. Veja a tabela de exemplo.
 
 
-**Caso de Teste** | **CT01 - Gerando um cadastro**
+**Caso de Teste** | **CT01 - Gerando um cadastro e fazendo login**
  :--------------: | ------------
 **Procedimento**  | 1) Usuário acessa o ícone de login e depois clica em "Cadastre-se".<br> 2) O usuário insere as informações no formulário. <br> 3) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam. <br>
 **Requisitos associados** | RF-015 & RNF-004
@@ -173,7 +173,7 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
 
-|*Caso de Teste*                                 |* CT01 - Gerando cadastro* |
+|*Caso de Teste*                                 |* CT01 - Gerando um cadastro e fazendo login* |
 |---|---|
 |Requisito Associado | RF-015 & RNF-004 - Usuários não autenticados podem se cadastrar para criar uma conta e serem autenticados.|
 |Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128104293/56e019e5-1b91-424a-99cb-eb7552ef8853| 
