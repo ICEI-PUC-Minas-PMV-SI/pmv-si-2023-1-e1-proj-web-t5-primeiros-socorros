@@ -258,8 +258,11 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 | Nº do Cenário | Descrição do cenário |
 |---------------|----------------------|
 | 1             | Você é uma pessoa que deseja se cadastrar na aplicação. Faça seu cadastro e posteriormente o login. |
-| 2             |. |
-| 3             |. |
+| 2             | Você é uma pessoa que está viajando e deseja encontrar um hospital em sua localidade. Encontre a função Mapa e faça a busca pelo hospital. |
+| 3             | Você é uma pessoa que sofre de crises de ansiedade. Localize na aplicação a função Emergência para ter acesso ao número de telefone do Centro de Valorização da Vida. |
+| 4             | Você é uma pessoa que é portadora de diabetes e realiza medições de sua glicemia diariamente. Encontre na aplicação a função Controle Glicêmico e registre seu nível glicêmico. | 
+| 5             | Você é uma pessoa que trabalha cuidando de idosos e quer ter acesso a um guia de primeiros socorros. Acesse a aplicação e encontre a função Guia de Primeiros Socorros.| 
+
 
 
 
