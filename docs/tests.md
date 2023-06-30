@@ -41,21 +41,6 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT01 - Acessando área de Sintomas - Parte 1*
- :--------------: | ------------
-**Procedimento**  | 1) Usuário acessa a área de login e informa "nome de usuário", senha e clica no botão "Entrar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br>
-**Requisitos associados** | RF-001
-**Resultado esperado** | Prosseguir para a área de Sintomas.
-**Dados de entrada** | Inserção de dados válidos no formulário de login.
-**Resultado obtido** | Sucesso.
-
-**Caso de Teste** | **CT02 - Acessando área de Sintomas - Parte 2*
- :--------------: | ------------
-**Procedimento**  | 1) Usuário(Fazendo login ou não) clica em "Guia Informativo Sobre Sintomas".<br> 2) Em seguida, clica nos ícone relacionados ao AVC, acessando então o informativo dos sintomas.<br> 3)  Em seguida, retorna ao menu principal e realiza o mesmo procedimento para as outras seções.<br>
-**Requisitos associados** | RF-001
-**Resultado esperado** | Acessar a página  dos Sintomas.
-**Dados de entrada** | Nenhum.
-**Resultado obtido** | Sucesso.
 
 **Caso de Teste** | **CT03 - Acessando área dos Primeiros Socorros - Parte 1*
  :--------------: | ------------
@@ -185,7 +170,23 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Nenhum.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT19 - Botão de Log out*
+**Caso de Teste** | **CT19 - Acessando área de Sintomas - Parte 1*
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário acessa a área de login e informa "nome de usuário", senha e clica no botão "Entrar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br>
+**Requisitos associados** | RF-001
+**Resultado esperado** | Prosseguir para a área de Sintomas.
+**Dados de entrada** | Inserção de dados válidos no formulário de login.
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT20 - Acessando área de Sintomas - Parte 2*
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário(Fazendo login ou não) clica em "Guia Informativo Sobre Sintomas".<br> 2) Em seguida, clica nos ícone relacionados ao AVC, acessando então o informativo dos sintomas.<br> 3)  Em seguida, retorna ao menu principal e realiza o mesmo procedimento para as outras seções.<br>
+**Requisitos associados** | RF-001
+**Resultado esperado** | Acessar a página  dos Sintomas.
+**Dados de entrada** | Nenhum.
+**Resultado obtido** | Sucesso.
+
+**Caso de Teste** | **CT21 - Botão de Log out*
  :--------------: | ------------
 **Procedimento**  | 1) Usuário acessa a área de relatório.<br> 2) Usuário clica no botão de "log out" e sai da página.<br>   
 **Requisitos associados** | RF-011
@@ -199,18 +200,22 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 
 Esta seção deve apresentar o relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado no plano de testes pré-definido. Documente cada caso de teste apresentando um vídeo ou animação que comprove o funcionamento da funcionalidade. Veja os exemplos a seguir.
 
-|*Caso de Teste*                                 |*TC-01 - Criar uma conta e Efetuar Login*                                         |
+|*Caso de Teste*                                 |* CT01 - Criar conta parte 1*  |
 |---|---|
-|Requisito Associado |  RF-001 - Usuários não autenticados podem se cadastrar para criar uma conta e serem autenticados.|
+|Requisito Associado |  RF-015 - Usuários não autenticados podem se cadastrar para criar uma conta e serem autenticados.|
 |Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128104293/56e019e5-1b91-424a-99cb-eb7552ef8853| 
 
+|*Caso de Teste*                                 |*CT02 - Criar conta parte 2*   |
 
-|*Caso de Teste*                                 |*TC-02 - Criar *                                         |
+|*Caso de Teste*                                 |*CT03 - Acessando área de Sintomas - Parte 1*  |
 |---|---|
-|Requisito Associado |  .|
-|Link do vídeo do teste realizado: || 
+|Requisito Associado | RF-001 - Disponibilizar um informativo sobre sintomas de infarto,AVC, ansiedade e queda de glicemia para usuários cadastrados.|
+|Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128104293/8242f464-7ad9-4889-8e4f-5ff00c42f146| 
 
-
+ |*Caso de Teste*                                 |*CT04 - Acessando área dos Primeiros Socorros - Parte 2* |
+|---|---|
+|Requisito Associado | RF-001 - Disponibilizar um informativo sobre sintomas de infarto,AVC, ansiedade e queda de glicemia para usuários não cadastrados.|
+|Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128104293/afd9c3fd-cd2d-4aaa-896e-c80ef57ade5c| 
 
 
 ## Avaliação dos Testes de Software
