@@ -10,7 +10,7 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 
 |ID    | Descrição do Requisito | Responsável | Artefato Criado |
 |------|------------------------|------------|-----------------|
-|RF-001| A aplicação deve disponibilizar um informativo sobre sintomas de infarto,AVC, ansiedade e queimaduras para usuários cadastrados ou visitantes. | Letícia  | paginasintomas.html |
+|RF-001| A aplicação deve disponibilizar um informativo sobre sintomas de infarto,AVC, ansiedade e queda de glicemia para usuários cadastrados ou visitantes. | Letícia  | paginasintomas.html |
 |RF-002| A aplicação deve disponibilizar guia prático sobre como agir em casos de emergências, para usuários cadastrados ou visitantes. | Pedro | primeiros-socorros.html |
 |RF-003| A aplicação deve disponibilizar um mapa mostrando os hospitais mais próximos, para usuários cadastrados ou visitantes. | Lorena | index.html |
 |RF-004| A aplicação deve permitir que o usuário cadastrado tenha acesso a funcionalidades específicas do site. | | cadastro-noticia.html |
