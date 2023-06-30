@@ -205,7 +205,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Requisito Associado |  RF-015 - Usuários não autenticados podem se cadastrar para criar uma conta e serem autenticados.|
 |Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128104293/56e019e5-1b91-424a-99cb-eb7552ef8853| 
 
-|*Caso de Teste*                                 |*CT02 - Criar conta parte 2*   |
+|*Caso de Teste*                                 |*CT02 - Criar conta parte 2* |
 
 |*Caso de Teste*                                 |*CT03 - Acessando área de Sintomas - Parte 1*  |
 |---|---|
