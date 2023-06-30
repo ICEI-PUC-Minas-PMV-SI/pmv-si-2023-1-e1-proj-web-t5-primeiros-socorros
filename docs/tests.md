@@ -41,22 +41,23 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Inserção de dados válidos no formulário de cadastro.
 **Resultado obtido** | Sucesso.
 
-
-**Caso de Teste** | **CT03 - Acessando área dos Primeiros Socorros - Parte 1*
+**Caso de Teste** | **CT03 - Acessando área de Sintomas - Parte 1*
  :--------------: | ------------
 **Procedimento**  | 1) Usuário acessa a área de login e informa "nome de usuário", senha e clica no botão "Entrar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br>
-**Requisitos associados** | RF-002
-**Resultado esperado** | Prosseguir para a área dos Pronto-Socorros.
+**Requisitos associados** | RF-001
+**Resultado esperado** | Prosseguir para a área de Sintomas.
 **Dados de entrada** | Inserção de dados válidos no formulário de login.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT04 - Acessando área dos Primeiros Socorros - Parte 2*
+**Caso de Teste** | **CT04 - Acessando área de Sintomas - Parte 2*
  :--------------: | ------------
-**Procedimento**  | 1) Usuário(Fazendo login ou não) clica em "Guia de Primeiros Socorros".<br> 2) Em seguida, clica nos ícone relacionados ao Primeiros Socorros, acessando então o informativo dos Primeiros Socorros.<br> 
-**Requisitos associados** | RF-002
-**Resultado esperado** | Acessar a página  dos Primeiros Socorros.
+**Procedimento**  | 1) Usuário(Fazendo login ou não) clica em "Guia Informativo Sobre Sintomas".<br> 2) Em seguida, clica nos ícone relacionados ao AVC, acessando então o informativo dos sintomas.<br> 3)  Em seguida, retorna ao menu principal e realiza o mesmo procedimento para as outras seções.<br>
+**Requisitos associados** | RF-001
+**Resultado esperado** | Acessar a página  dos Sintomas.
 **Dados de entrada** | Nenhum.
 **Resultado obtido** | Sucesso.
+
+
 
 **Caso de Teste** | **CT05 - Acessando área do Mapa - Parte 1*
  :--------------: | ------------
@@ -170,19 +171,20 @@ Preencha a tabela com o plano dos testes. Para cada Caso de Teste (CT), associe 
 **Dados de entrada** | Nenhum.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT19 - Acessando área de Sintomas - Parte 1*
+
+**Caso de Teste** | **CT19 - Acessando área dos Primeiros Socorros - Parte 1*
  :--------------: | ------------
 **Procedimento**  | 1) Usuário acessa a área de login e informa "nome de usuário", senha e clica no botão "Entrar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br>
-**Requisitos associados** | RF-001
-**Resultado esperado** | Prosseguir para a área de Sintomas.
+**Requisitos associados** | RF-002
+**Resultado esperado** | Prosseguir para a área dos Pronto-Socorros.
 **Dados de entrada** | Inserção de dados válidos no formulário de login.
 **Resultado obtido** | Sucesso.
 
-**Caso de Teste** | **CT20 - Acessando área de Sintomas - Parte 2*
+**Caso de Teste** | **CT20 - Acessando área dos Primeiros Socorros - Parte 2*
  :--------------: | ------------
-**Procedimento**  | 1) Usuário(Fazendo login ou não) clica em "Guia Informativo Sobre Sintomas".<br> 2) Em seguida, clica nos ícone relacionados ao AVC, acessando então o informativo dos sintomas.<br> 3)  Em seguida, retorna ao menu principal e realiza o mesmo procedimento para as outras seções.<br>
-**Requisitos associados** | RF-001
-**Resultado esperado** | Acessar a página  dos Sintomas.
+**Procedimento**  | 1) Usuário(Fazendo login ou não) clica em "Guia de Primeiros Socorros".<br> 2) Em seguida, clica nos ícone relacionados ao Primeiros Socorros, acessando então o informativo dos Primeiros Socorros.<br> 
+**Requisitos associados** | RF-002
+**Resultado esperado** | Acessar a página  dos Primeiros Socorros.
 **Dados de entrada** | Nenhum.
 **Resultado obtido** | Sucesso.
 
