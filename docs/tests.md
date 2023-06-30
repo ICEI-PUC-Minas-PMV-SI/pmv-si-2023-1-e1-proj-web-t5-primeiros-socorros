@@ -221,9 +221,18 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 
 |*Caso de Teste*                                 |*CT05 - Acessando área do Mapa - Parte 1* |
 |---|---|
-|Requisito Associado | RF-003 -  Disponibilizar um mapa mostrando os hospitais mais próximos, para usuários cadastrados ou visitantes..|
+|Requisito Associado | RF-003 -  Disponibilizar um mapa mostrando os hospitais mais próximos, para usuários cadastrados ou visitantes.|
 |Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128104293/c41e1f89-1f8b-453c-afae-6f9da0532c00| 
 
+|*Caso de Teste*                                 |*CT10 - Acessando área dos Prevenção de Acidentes Domésticos - Parte 1* |
+|---|---|
+|Requisito Associado | RF-006 - A aplicação deve fornecer informações detalhadas e relevantes sobre como prevenir acidentes domésticos para usuários cadastrados.|
+|Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128104293/319e0807-68cf-4656-a131-4db87fe23119|
+
+|*Caso de Teste*                                 |*CT11 - Acessando área dos Prevenção de Acidentes Domésticos - Parte 1* |
+|---|---|
+|Requisito Associado | RF-006 - A aplicação deve fornecer informações detalhadas e relevantes sobre como prevenir acidentes domésticos para usuários não cadastrados.|
+|Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128104293/bc0b314f-a732-40a1-a2cb-dcec14767635|
 
 
 
