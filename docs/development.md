@@ -14,9 +14,9 @@ As tabelas que se seguem apresentam os requisitos funcionais e não-funcionais q
 |RF-002| A aplicação deve disponibilizar guia prático sobre como agir em casos de emergências, para usuários cadastrados ou visitantes. | Pedro | primeiros-socorros.html |
 |RF-003| A aplicação deve disponibilizar um mapa mostrando os hospitais mais próximos, para usuários cadastrados ou visitantes. | Lorena | index.html |
 |RF-004| A aplicação deve permitir que o usuário cadastrado tenha acesso a funcionalidades específicas do site. | | cadastro-noticia.html |
-|RF-005| A aplicação deve permitir uma lupa de busca abaixo do mapa, possibilitando a procura por hospitais e clínicas próximas. | Lorena | index.html |
+|RF-005| A aplicação deve permitir uma lupa de busca embutido ao mapa, possibilitando a procura por hospitais e clínicas próximas. | Lorena | mapa.html |
 |RF-006| A aplicação deve fornecer um guia de primeiros socorros para usuários visitantes e cadastrados. | Pedro | primeiros-socorros.html |
-|RF-007| A aplicação deve fornecer informações detalhadas e relevantes sobre como prevenir acidentes domésticos para usuários visitantes e cadastrados.	| Felipe | prevencaodeacidentes.html |	
+|RF-007| A aplicação deve fornecer informações detalhadas e relevantes sobre como prevenir acidentes domésticos para usuários visitantes e cadastrados.| Felipe | prevencaodeacidentes.html |	
 |RF-008| A aplicação deve disponibilizar números telefônicos destinados a casos de emergência para usuários visitantes e cadastrados. | Letícia | telefonesuteis.html |
 |RF-009| A aplicação deve instruir o usuário cadastrado ou visitante a realizar curativos paliativos.	|Pedro| cadastro-noticia.html |
 |RF-010| A aplicação deve encaminhar chamadas a centros de aconselhamentos, a fim de evitar tentativas de suícidio para usuários visitantes e cadastrados. || cadastro-noticia.html |
