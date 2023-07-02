@@ -77,6 +77,7 @@ function getProduto(id) {
 const produtoForm = document.getElementById("Salvar");
 
 produtoForm.addEventListener("click", (e) => {
+  e.preventDefault();
   let id = document.getElementById("produto-id").value;
   const produto = JSON.stringify({
     id: document.getElementById("produto-id").value,
