@@ -176,7 +176,14 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |* CT01 - Gerando um cadastro e fazendo login* |
 |---|---|
 |Requisito Associado | RF-015 & RNF-004 - Usuários não autenticados podem se cadastrar para criar uma conta e serem autenticados.|
-|Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128104293/bc31927a-43d8-4d35-9cf3-8d04cc7fbcca| 
+|Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128104293/bc31927a-43d8-4d35-9cf3-8d04cc7fbcca|
+
+|*Caso de Teste**                                       | **CT02 - Recuperar a senha**|
+|---|---|
+
+|Requisito Associado |  RF-012 
+|Link do video do teste realizado |
+
 
 |*Caso de Teste*                                 |*CT03 - Acessando área de Sintomas - Parte 1* |
 |---|---|
