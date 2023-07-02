@@ -272,15 +272,16 @@ Cenário 1: Você é uma pessoa que deseja se cadastrar na aplicação. Faça se
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 27.87 segundos                  |
-| 2       | SIM             | 5                    | 17.11 segundos                  |
-| 3       | SIM             | 5                    | 39.09 segundos                  |
+| 1       | SIM             | 5                    | 55.15 segundos                  |
+| 2       | SIM             | ?                    | ? segundos                  |
+| 3       | SIM             | ?                    | ? segundos                  |
 |  |  |  |  |
-| **Média**     | 100%           | 5                | 28.02 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
+| **Média**     | 100%           | 5                | ? segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | ? segundos |
 
 
-    Comentários dos usuários: 
+    Comentários dos usuários: Gostou da interface, aplicação é bem didatica, o layout visível e com boa localização dos campos a serem preenchidos.
+Acha que deveria receber e-mail de confirmação para realizar o cadastro.
 
 
 
@@ -289,17 +290,15 @@ Cenário 2: Você é uma pessoa que está viajando e deseja encontrar um hospita
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 5                    | 36.21 segundos                          |
+| 1       | SIM             | 5                    | 28.55 segundos                          |
+| 2       | SIM             |?                    | ? segundos                          |
+| 3       | SIM             | ?                  |? segundos                          |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
 
 
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
+    Comentários dos usuários: Gostaria que as opções em inglês estivessem em português.
 
 
 
@@ -308,17 +307,15 @@ Cenário 3: Você é uma pessoa que sofre de crises de ansiedade. Localize na ap
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 5                    | 36.21 segundos                          |
+| 1       | SIM             | 5                    | 6.85 segundos                          |
+| 2       | SIM             | 5                    | ? segundos                          |
+| 3       | SIM             | 5                    | ? segundos                          |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
 
 
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
+    Comentários dos usuários: ?
 
 
 
@@ -326,17 +323,15 @@ Cenário 4: Você é uma pessoa que é portadora de diabetes e realiza mediçõe
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 22.54 segundos                          |
-| 2       | SIM             | 5                    | 31.42 segundos                          |
-| 3       | SIM             | 5                    | 36.21 segundos                          |
+| 1       | SIM             | 5                    | ? segundos                          |
+| 2       | SIM             | 5                    | ? segundos                          |
+| 3       | SIM             | 5                    | ? segundos                          |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
 
 
-    Comentários dos usuários: O site é fácil de acessar, mas algumas páginas poderiam 
-    redirecionar a gente automaticamente para outras. Senti a falta de mais opções de filtros, 
-    tanto na hora da pesquisa, quanto depois dela, nos resultados.
+    Comentários dos usuários: ?
 
 
 
@@ -344,9 +339,9 @@ Cenário 5: Você é uma pessoa que trabalha cuidando de idosos e quer ter acess
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 27.87 segundos                  |
-| 2       | SIM             | 5                    | 17.11 segundos                  |
-| 3       | SIM             | 5                    | 39.09 segundos                  |
+| 1       | SIM             | 5                    | 5.87 segundos                  |
+| 2       | SIM             | 5                    | ? segundos                  |
+| 3       | SIM             | 5                    | ? segundos                  |
 |  |  |  |  |
 | **Média**     | 100%           | 5                | 28.02 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
@@ -359,6 +354,7 @@ Cenário 5: Você é uma pessoa que trabalha cuidando de idosos e quer ter acess
 
 ## Avaliação dos Testes de Usabilidade
 
+Foram realizados testes funcionais do sistema, de acordo com o Plano de testes funcionais, no ambiente de produção no dia 02 de julho de 2023 às 14h00.
 
 Tomando como base os resultados obtidos, foi possível verificar que a aplicação web apresenta bons resultados quanto à taxa de sucesso na interação dos usuários, tendo em vista que os cenários propostos foram concluídos com sucesso.
 
