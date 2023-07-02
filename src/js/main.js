@@ -1,22 +1,23 @@
-// URL DA API DE DADOS
-URL = 'http://localhost:3000/produtos'
-//=================================================================================================
-// GET - Recupera todos os produtos e adiciona na tabela
+const listaUser = JSON.parse(localStorage.getItem("listaUser"));
 
-const produtoList = document.getElementById('produto-list');
+localStorage.setItem("listaUser", JSON.stringify(listaUser));
+const produtoList = document.getElementById("produto-list");
+const usuarioLogado = JSON.parse(localStorage.getItem("userLogado"));
+const index = listaUser.findIndex(
+  (usuario) => usuario.userCad === usuarioLogado.user
+);
 
-fetch(URL)
-    .then(res => res.json())
-    .then(produtos => {
-        let lista_produtos = '';
-        for (let i = 0; i < produtos.length; i++) {
-            vlt_total = produtos[i].qtd * produtos[i].vlr;
-            lista_produtos += `
+function loadRegistros() {
+  let lista_produtos = "";
+  let produtos = [];
+  for (let i = 0; i < listaUser[index].registroGlicemia.length; i++) {
+    produtos.push(JSON.parse(listaUser[index].registroGlicemia[i]));
+    lista_produtos += `
             <tr>
                 <th>${produtos[i].id}</th>
                 <td>${produtos[i].date}</td>
                 <td>${produtos[i].time}</td>
-                <td>${(parseFloat(produtos[i].vlr))}</td>
+                <td>${parseFloat(produtos[i].vlr)}</td>
                 <td>
                     <a onclick="getProduto(${produtos[i].id});" 
                     class="btn btn-warning btn-sm" 
@@ -24,96 +25,82 @@ fetch(URL)
                     <i class="fa fa-edit"></i>  Editar
                     </a>
 
-                    <a onclick="$('#id-prod').text(${produtos[i].id});" class="btn btn-danger btn-sm" 
+                    <a onclick="$('#id-prod').text(${
+                      produtos[i].id
+                    });" class="btn btn-danger btn-sm" 
                     data-toggle="modal" data-target="#modal-delete">
                     <i class="fa fa-trash"></i> Remover
                     </a>
                 </td>
             </tr>
             `;
-            produtoList.innerHTML = lista_produtos;
-        }
-    });
-//=================================================================================================
-
-// DELETE - PROCEDIMENTO PARA EXCLUIR UM PRODUTO
-const produtoDelete = document.getElementById('btn-delete');
-
-produtoDelete.addEventListener('click', (e) => {
-
-    let id = $('#id-prod').text();
-
-    fetch(`${URL}/${id}`, {
-        method: 'DELETE',
-    })
-    .then(res => res.json())
-    .then(() => location.reload());
-
-})
-//=================================================================================================
-
-// PROCEDIMENTO PARA RECUPERAR OS DADOS DE UM PRODUTO NA API
-function getProduto(id){
-
-    if(id == 0){
-        $('#edit-prod-id').text("");
-        $( "#produto-id" ).prop( "disabled", false );
-        $('#produto-id').val("");
-        $('#produto-date').val("");
-        $('#produto-time').val("");
-        $('#produto-vlr').val("");
-    }else{
-        $('#edit-prod-id').text(id);
-        fetch(`${URL}/${id}`).then(res => res.json())    
-        .then(data => {
-            $( "#produto-id" ).prop( "disabled", true );
-            $('#produto-id').val(data.id);
-            $('#produto-date').val(data.date);
-            $('#produto-time').val(data.time);
-            $('#produto-vlr').val(data.vlr);
-        });
-    }    
+    produtoList.innerHTML = lista_produtos;
+  }
 }
 
-//=================================================================================================
+// DELETE - PROCEDIMENTO PARA EXCLUIR UM PRODUTO
+const produtoDelete = document.getElementById("btn-delete");
 
-// CREATE or UPDATE - PROCEDIMENTO PARA CRIAR OU EDITAR UM PRODUTO
+produtoDelete.addEventListener("click", (e) => {
+  let id = $("#id-prod").text();
+  console.log(id);
 
-const produtoForm = document.getElementById('produto-form');
+  let indexRegistro = listaUser[index].registroGlicemia.findIndex(function (
+    el
+  ) {
+    return id === JSON.parse(el).id;
+  });
 
-produtoForm.addEventListener('submit', (e) => {
+  if (indexRegistro !== -1) {
+    listaUser[index].registroGlicemia.splice(indexRegistro, 1);
+  }
 
-    // RECUPERA O ID DO PRODUTO
-    let id = parseInt($('#edit-prod-id').text());    
+  console.log(listaUser[index].registroGlicemia);
 
-    // RECUPERA OS DADOS DO PRODUTO
-    const produto = JSON.stringify({
-        id: document.getElementById('produto-id').value,
-        date: document.getElementById('produto-date').value,
-        time: document.getElementById('produto-time').value,
-        vlr: document.getElementById('produto-vlr').value
-    })
+  localStorage.setItem("listaUser", JSON.stringify(listaUser));
+  location.reload();
+});
 
-    if (id >= 0) {
-        fetch(`${URL}/${id}`, {
-            method: 'PUT',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: produto
-        })
-        .then(res => res.json())
-        .then(() => location.reload());  
+function getProduto(id) {
+  if (id > 0) {
+    let registro = listaUser[index].registroGlicemia.filter(function (el) {
+      return id == JSON.parse(el).id;
+    });
+    document.getElementById("produto-id").value = id;
+    document.getElementById("produto-date").value = registro.date;
+    document.getElementById("produto-time").value = registro.time;
+    document.getElementById("produto-vlr").value = registro.vlr;
+    $("#produto-id").attr("readonly", "readonly");
+  }
+}
+
+const produtoForm = document.getElementById("produto-form");
+
+produtoForm.addEventListener("submit", (e) => {
+  let id = document.getElementById("produto-id").value;
+  const produto = JSON.stringify({
+    id: document.getElementById("produto-id").value,
+    date: document.getElementById("produto-date").value,
+    time: document.getElementById("produto-time").value,
+    vlr: document.getElementById("produto-vlr").value,
+  });
+  let indexRegistro = listaUser[index].registroGlicemia.findIndex(function (
+    el
+  ) {
+    return id == JSON.parse(el).id;
+  });
+  console.log(indexRegistro);
+  if (indexRegistro >= 0) {
+    listaUser[index].registroGlicemia[indexRegistro] = produto;
+  } else {
+    if (listaUser[index].registroGlicemia) {
+      listaUser[index].registroGlicemia.push(produto);
+    } else {
+      listaUser[index].registroGlicemia = [produto];
     }
-    else{ 
-        fetch(URL, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: produto
-        })
-        .then(res => res.json())
-        .then(() => location.reload());  
-    }      
-})
+  }
+  localStorage.setItem("listaUser", JSON.stringify(listaUser));
+  location.reload();
+});
+
+loadRegistros();
