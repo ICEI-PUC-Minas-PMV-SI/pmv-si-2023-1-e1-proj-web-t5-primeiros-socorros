@@ -378,7 +378,7 @@ Cenário 4: Você é uma pessoa que é portadora de diabetes e realiza mediçõe
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
 | Marcelo    | SIM             | 5                    | 71 segundos                          |
-| Tião       | SIM             | 5                    | ? segundos                          |
+| Tião       | SIM             | 4                    | 21.62 segundos                          |
 | Roberto    | SIM             | 5                    | 90.50 segundos                          |
 |  |  |  |  |
 | **Média**     | 100%           | 5                | 0 segundos                           |
@@ -386,6 +386,7 @@ Cenário 4: Você é uma pessoa que é portadora de diabetes e realiza mediçõe
 
 
     Comentários dos usuários: Marcelo: Sugestão de colocar uma opção para inserir comentários sobre sintomas sentidos naquele dia da medição da glicemia. 
+                             Tião: Achou simples de usar, só não entendeu o porquê pede pra digitar o código. E sugere para que quando o nível glicêmico for alterado substitua o outro, pois fica confuso mostrando os dois valores.
 
 
 
