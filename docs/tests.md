@@ -264,7 +264,7 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 |     Usuário   | Idade            | Uso de internet (1 a 5, sendo 1 raramente faz uso e 5 usa constantemente)|
 |---------------|------------------|--------------------------------------------------------------------------|
 | 1 Marcelo     | Idade: 33 anos   |  5|
-| 2             | Idade:           |  ?|
+| 2 Tião        | Idade: 50 anos   |  3|
 | 3             | Idade:            |  ?|
 
 ## Registro de Testes de Usabilidade
@@ -274,7 +274,7 @@ Cenário 1: Você é uma pessoa que deseja se cadastrar na aplicação. Faça se
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
 | 1 Marcelo      | SIM             | 5                    | 55.15 segundos                  |
-| 2       | SIM             | ?                    | ? segundos                  |
+| 2 Tião         | SIM             | 5                    | 60.20 segundos                  |
 | 3       | SIM             | ?                    | ? segundos                  |
 |  |  |  |  |
 | **Média**     | 100%           | 5                | ? segundos                           |
@@ -282,7 +282,7 @@ Cenário 1: Você é uma pessoa que deseja se cadastrar na aplicação. Faça se
 
 
     Comentários dos usuários: Marcelo: Gostou da interface e achou a aplicação didática. O layout é visível e com fácil localização dos campos a serem preenchidos. Gostaria de receber e-mail com a confirmação para finalizar o cadastro.
-
+                              Tião: Achou a página dinâmica e de fácil entendimento.
 
 
 
@@ -291,7 +291,7 @@ Cenário 2: Você é uma pessoa que está viajando e deseja encontrar um hospita
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
 | 1 Marcelo       | SIM             | 5                    | 28.55 segundos                          |
-| 2       | SIM             |?                    | ? segundos                          |
+| 2 Tião      | SIM             | 5                |  26.72 segundos                          |
 | 3       | SIM             | ?                  |? segundos                          |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
@@ -299,6 +299,8 @@ Cenário 2: Você é uma pessoa que está viajando e deseja encontrar um hospita
 
 
     Comentários dos usuários: Marcelo: Gostaria que as opções em inglês estivessem em português.
+                              Tião: Achou a busca simples e fácil. A função de filtrar o "lugar" ganhou um
+destaque.
 
 
 
@@ -308,7 +310,7 @@ Cenário 3: Você é uma pessoa que sofre de crises de ansiedade. Localize na ap
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
 | 1 Marcelo       | SIM             | 5                    | 6.85 segundos                          |
-| 2       | SIM             | 5                    | ? segundos                          |
+| 2 Tião      | SIM             | 5                    | 7.01 segundos                          |
 | 3       | SIM             | 5                    | ? segundos                          |
 |  |  |  |  |
 | **Média**     | 0%           | 0                | 0 segundos                           |
@@ -316,6 +318,7 @@ Cenário 3: Você é uma pessoa que sofre de crises de ansiedade. Localize na ap
 
 
     Comentários dos usuários: Marcelo: Foi fácil e intuitivo.
+                              Tião: Simples e de fácil acesso.
 
 
 
@@ -339,8 +342,8 @@ Cenário 5: Você é uma pessoa que trabalha cuidando de idosos e quer ter acess
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 5.87 segundos                  |
-| 2       | SIM             | 5                    | ? segundos                  |
+| 1 Marcelo      | SIM             | 5             | 5.87 segundos                  |
+| 2 Tião     | SIM             | 5                 | 6.05 segundos                  |
 | 3       | SIM             | 5                    | ? segundos                  |
 |  |  |  |  |
 | **Média**     | 100%           | 5                | 28.02 segundos                           |
@@ -348,6 +351,7 @@ Cenário 5: Você é uma pessoa que trabalha cuidando de idosos e quer ter acess
 
 
     Comentários dos usuários: Marcelo: Foi tranquilo.
+                              Tião: Achou simples e fácil.
 
 
 
