@@ -281,7 +281,7 @@ Cenário 1: Você é uma pessoa que deseja se cadastrar na aplicação. Faça se
 | **Tempo para conclusão pelo especialista** | SIM | 5 | ? segundos |
 
 
-    Comentários dos usuários: Gostou da interface e achou a aplicação é bem didática. O layout é visível e com fácil localização dos campos a serem preenchidos. Gostaria de receber e-mail com a confirmação para finalizar o cadastro.
+    Comentários dos usuários: Gostou da interface e achou a aplicação didática. O layout é visível e com fácil localização dos campos a serem preenchidos. Gostaria de receber e-mail com a confirmação para finalizar o cadastro.
 
 
 
