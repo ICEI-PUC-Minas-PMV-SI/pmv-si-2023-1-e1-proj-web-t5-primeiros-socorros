@@ -331,7 +331,7 @@ Cenário 1: Você é uma pessoa que deseja se cadastrar na aplicação. Faça se
 
     Comentários dos usuários: Marcelo: Gostou da interface e achou a aplicação didática. O layout é visível e com fácil localização dos campos a serem preenchidos. Gostaria de receber e-mail com a confirmação para finalizar o cadastro.
                               Tião: Achou a página dinâmica e de fácil entendimento.
-                              Roberto: Gostei e achei a página tranquila.
+                              Roberto: Gostou e achou a página tranquila.
 
 
 
@@ -348,8 +348,7 @@ Cenário 2: Você é uma pessoa que está viajando e deseja encontrar um hospita
 
 
     Comentários dos usuários: Marcelo: Gostaria que as opções em inglês estivessem em português.
-                              Tião: Achou a busca simples e fácil. A função de filtrar o "lugar" ganhou um
-destaque.
+                              Tião: Achou a busca simples e fácil. A função de filtrar o "lugar" ganhou um destaque.
                               Roberto: Gostaria da tela maior na versão mobile.
 
 
@@ -380,10 +379,10 @@ Cenário 4: Você é uma pessoa que é portadora de diabetes e realiza mediçõe
 |---------|-----------------|----------------------|---------------------------------|
 | Marcelo    | SIM             | 5                    | 71 segundos                          |
 | Tião       | SIM             | 5                    | ? segundos                          |
-| Roberto    | SIM             | 5                    | ? segundos                          |
+| Roberto    | SIM             | 5                    | 90.50 segundos                          |
 |  |  |  |  |
-| **Média**     | 0%           | 0                | 0 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
+| **Média**     | 100%           | 5                | 0 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 50 segundos |
 
 
     Comentários dos usuários: Marcelo: Sugestão de colocar uma opção para inserir comentários sobre sintomas sentidos naquele dia da medição da glicemia. 
