@@ -217,8 +217,9 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 ## Avaliação dos Testes de Software
 
 Levando em consideração todos os pontos possíveis, discorre-se que os testes em geral foram bem eficientes, com muitos pontos positivos apresentados e poucas observações a serem feitas. Além disso, foram feitos em um tempo razoável e de forma rápida. 
-Os pontos positivos, foram vários, 
-
+Os pontos positivos foram vários, com a aplicação funcionando de forma eficiente em todas funcionalidades. O registro de glicemia foi bem estruturado com uma tabela para adição, edição e exlusão dos registros, sendo que os mesmos serão armazenados no cadastro de usuário.
+Além disso, as estruturas estáticas apresentam uma fácil funcionalidade em sua navegação.
+Nos pontos negativos, podem-se observar que o design poderia ter sido mais inovador e um pouco menos rústico, o usuário pode se sentir um pouco perdido ao voltar no menu principal, pois não há um botão de retorno explícito nas telas (apesar dessa função realmente existir e ser nada menos do que a logo do app). 
 
 
 # Testes de Usabilidade
