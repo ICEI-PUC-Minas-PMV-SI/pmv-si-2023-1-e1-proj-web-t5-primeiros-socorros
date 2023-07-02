@@ -178,12 +178,13 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Requisito Associado | RF-015 & RNF-004 - Usuários não autenticados podem se cadastrar para criar uma conta e serem autenticados.|
 |Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128104293/bc31927a-43d8-4d35-9cf3-8d04cc7fbcca|
 
-|*Caso de Teste**                                       | **CT02 - Recuperar a senha**|
-|---|---|
-
-|Requisito Associado |  RF-012 
-|Link do video do teste realizado |
-
+**Caso de Teste** | **CT02 - Recuperar a senha**
+ :--------------: | ------------
+**Procedimento**  | 1) Usuário acessa a área de login e clica em "Esqueceu a senha?".<br> 2) O usuário insere o seu CPF.<br> 3) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 4) O usuário insere a nova senha 5) A aplicação verifica se os dados são válidos, os amazena e direciona o usuário para a tela de login.
+**Requisitos associados** | RF-012 
+**Resultado esperado** | Recuperção de senha
+**link do video do teste** | 
+**Resultado obtido** | Sucesso.
 
 |*Caso de Teste*                                 |*CT03 - Acessando área de Sintomas - Parte 1* |
 |---|---|
