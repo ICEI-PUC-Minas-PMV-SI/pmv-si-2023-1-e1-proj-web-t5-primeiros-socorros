@@ -184,6 +184,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 **Requisitos associados** | RF-012 
 **Resultado esperado** | Recuperção de senha
 **link do video do teste** | 
+https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128707254/85c1aa09-9c7c-4eed-8ffd-255e10e403ce
 **Resultado obtido** | Sucesso.
 
 |*Caso de Teste*                                 |*CT03 - Acessando área de Sintomas - Parte 1* |
