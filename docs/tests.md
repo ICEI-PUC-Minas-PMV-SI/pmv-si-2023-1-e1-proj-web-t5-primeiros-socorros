@@ -255,7 +255,9 @@ https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-
 **Procedimento**  | 1) Usuário acessa a aplicação por meio de um dispositivo móvel.<br>    
 **Requisitos associados** | RNF-001
 **Resultado esperado** | Visualização do site.
-**link do video** |
+**link do video** | 
+https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128707254/194fdabd-cd19-486e-9221-3f33dcd9cbfe
+
 **Resultado obtido** | Sucesso.
 
 
