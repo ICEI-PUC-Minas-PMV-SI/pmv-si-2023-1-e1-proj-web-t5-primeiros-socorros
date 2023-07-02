@@ -242,7 +242,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 **Procedimento**  | 1) Usuário(Fazendo login ou não) clica em "Emergência".<br> 
 **Requisitos associados** | RF-007
 **Resultado esperado** | Acessar a página  dos Telefones Úteis.
-**link do video do teste** | 
+**link do video do teste** | https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128707254/6aeec093-c430-4de6-b787-74282feda242
 **Resultado obtido** | Sucesso.
 
 **Caso de Teste** | **CT18 - Dsipositivo móvel*
