@@ -238,13 +238,12 @@ https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-
 |*Caso de Teste*                                 |*CT14, CT15, CT16 & CT17 - Registro de Glicemia* |
 |---|---|
 |Requisito Associado | RF-014, RF-010, RF-011, RF-009 & RF-004 - Usuario deve fazer login, adicionar uma amostra na tabela de glicemia, editá-la e portanto excluir o registro. Depois disso, clicar no botão de log out.|
-|Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128707254/6aeec093-c430-4de6-b787-74282feda242|
+|Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/101735808/38ffd7aa-eb03-479b-a2ce-7128910435cb|
 
 |*Caso de Teste*                                 |*CT18 - Dispositivo móvel* |
 |---|---|
 |Requisito Associado | RNF-001 - Usuário acessa a aplicação por meio de um dispositivo móvel.|
-|Link do vídeo do teste realizado: |
-https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128707254/194fdabd-cd19-486e-9221-3f33dcd9cbfe|
+|Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128707254/194fdabd-cd19-486e-9221-3f33dcd9cbfe|
 
 
 ## Avaliação dos Testes de Software
