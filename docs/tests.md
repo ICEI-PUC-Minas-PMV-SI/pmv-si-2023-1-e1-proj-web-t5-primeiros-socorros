@@ -260,7 +260,11 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 | 5             | Você é uma pessoa que trabalha cuidando de idosos e quer ter acesso a um guia de primeiros socorros. Acesse a aplicação e encontre a função Guia de Primeiros Socorros.| 
 
 
-
+|     Usuário   | Idade            | Uso de internet (1 a 5, sendo 1 raramente faz uso e 5 usa constantemente)|
+|---------------|------------------|--------------------------------------------------------------------------|
+| 1             | Idade: 33 anos   |  5|
+| 2             | Idade:           |  ?|
+| 3            | Idade:            |  ?|
 
 ## Registro de Testes de Usabilidade
 
