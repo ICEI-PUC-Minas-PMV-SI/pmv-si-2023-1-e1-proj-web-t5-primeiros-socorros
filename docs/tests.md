@@ -176,7 +176,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |* CT01 - Gerando um cadastro e fazendo login* |
 |---|---|
 |Requisito Associado | RF-015 & RNF-004 - Usuários não autenticados podem se cadastrar para criar uma conta e serem autenticados.|
-|Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128104293/56e019e5-1b91-424a-99cb-eb7552ef8853| 
+|Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128104293/bc31927a-43d8-4d35-9cf3-8d04cc7fbcca| 
 
 |*Caso de Teste*                                 |*CT03 - Acessando área de Sintomas - Parte 1* |
 |---|---|
@@ -281,8 +281,7 @@ Cenário 1: Você é uma pessoa que deseja se cadastrar na aplicação. Faça se
 | **Tempo para conclusão pelo especialista** | SIM | 5 | ? segundos |
 
 
-    Comentários dos usuários: Gostou da interface e achou a aplicação é bem didática. O layout é visível e com fácil localização dos campos a serem preenchidos.
-Acha que deveria receber e-mail de confirmação para finalizar o cadastro.
+    Comentários dos usuários: Gostou da interface e achou a aplicação é bem didática. O layout é visível e com fácil localização dos campos a serem preenchidos. Gostaria de receber e-mail com a confirmação para finalizar o cadastro.
 
 
 
