@@ -263,9 +263,9 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 |     Usuário   | Idade            | Uso de internet (1 a 5, sendo 1 raramente faz uso e 5 usa constantemente)|
 |---------------|------------------|--------------------------------------------------------------------------|
-| 1             | Idade: 33 anos   |  5|
+| 1 Marcelo     | Idade: 33 anos   |  5|
 | 2             | Idade:           |  ?|
-| 3            | Idade:            |  ?|
+| 3             | Idade:            |  ?|
 
 ## Registro de Testes de Usabilidade
 
@@ -273,7 +273,7 @@ Cenário 1: Você é uma pessoa que deseja se cadastrar na aplicação. Faça se
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 55.15 segundos                  |
+| 1 Marcelo      | SIM             | 5                    | 55.15 segundos                  |
 | 2       | SIM             | ?                    | ? segundos                  |
 | 3       | SIM             | ?                    | ? segundos                  |
 |  |  |  |  |
@@ -281,7 +281,7 @@ Cenário 1: Você é uma pessoa que deseja se cadastrar na aplicação. Faça se
 | **Tempo para conclusão pelo especialista** | SIM | 5 | ? segundos |
 
 
-    Comentários dos usuários: Gostou da interface e achou a aplicação didática. O layout é visível e com fácil localização dos campos a serem preenchidos. Gostaria de receber e-mail com a confirmação para finalizar o cadastro.
+    Comentários dos usuários: Marcelo: Gostou da interface e achou a aplicação didática. O layout é visível e com fácil localização dos campos a serem preenchidos. Gostaria de receber e-mail com a confirmação para finalizar o cadastro.
 
 
 
@@ -290,7 +290,7 @@ Cenário 2: Você é uma pessoa que está viajando e deseja encontrar um hospita
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 28.55 segundos                          |
+| 1 Marcelo       | SIM             | 5                    | 28.55 segundos                          |
 | 2       | SIM             |?                    | ? segundos                          |
 | 3       | SIM             | ?                  |? segundos                          |
 |  |  |  |  |
@@ -298,7 +298,7 @@ Cenário 2: Você é uma pessoa que está viajando e deseja encontrar um hospita
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
 
 
-    Comentários dos usuários: Gostaria que as opções em inglês estivessem em português.
+    Comentários dos usuários: Marcelo: Gostaria que as opções em inglês estivessem em português.
 
 
 
@@ -307,7 +307,7 @@ Cenário 3: Você é uma pessoa que sofre de crises de ansiedade. Localize na ap
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1       | SIM             | 5                    | 6.85 segundos                          |
+| 1 Marcelo       | SIM             | 5                    | 6.85 segundos                          |
 | 2       | SIM             | 5                    | ? segundos                          |
 | 3       | SIM             | 5                    | ? segundos                          |
 |  |  |  |  |
@@ -315,7 +315,7 @@ Cenário 3: Você é uma pessoa que sofre de crises de ansiedade. Localize na ap
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
 
 
-    Comentários dos usuários: ?
+    Comentários dos usuários: Marcelo: Foi fácil e intuitivo.
 
 
 
@@ -331,7 +331,7 @@ Cenário 4: Você é uma pessoa que é portadora de diabetes e realiza mediçõe
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 13.57 segundos |
 
 
-    Comentários dos usuários: ?
+    Comentários dos usuários: 
 
 
 
@@ -347,7 +347,7 @@ Cenário 5: Você é uma pessoa que trabalha cuidando de idosos e quer ter acess
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 8.66 segundos |
 
 
-    Comentários dos usuários: 
+    Comentários dos usuários: Marcelo: Foi tranquilo.
 
 
 
