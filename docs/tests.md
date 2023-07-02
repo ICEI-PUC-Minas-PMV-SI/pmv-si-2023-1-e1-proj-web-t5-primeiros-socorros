@@ -199,7 +199,9 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
  |*Caso de Teste*                                 |*CT08 - Acessando área dos Primeiros Socorros* |
 |---|---|
 |Requisito Associado | RNF-002, RF-013, RF-004, RF-002, RF-005 & RF-008 - Disponibilizar um informativo sobre sintomas de infarto,AVC, ansiedade e queda de glicemia para usuários não cadastrados.|
-|Link do vídeo do teste realizado: | | 
+|Link do vídeo do teste realizado: |
+https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128707254/e06e59bc-493d-4a2a-b758-0b147ff0b827
+ | 
 
 |*Caso de Teste*                                 |*CT05 & CT06- Acessando área do Mapa - Parte 1* |
 |---|---|
@@ -209,14 +211,16 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |*Caso de Teste*                                 |*CT07 - Navegando pela área do Mapa - Parte 2* |
 |---|---|
 |Requisito Associado | RF-003, RNF-003 & RF-004 -  Usuário poderá arrastar o ícone "Pegman" para uma devida área, tanto para usuários cadastrados ou visitantes.|
-|Link do vídeo do teste realizado: | | 
+|Link do vídeo do teste realizado: |
+https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128707254/42e3e08d-f7c8-4480-9d4d-adca77fe44cb | 
 
 **Caso de Teste** | **CT09 - Acessando área dos Primeiros Socorros - Parte 2*
  :--------------: | ------------
 **Procedimento**  | 1) Usuário(Fazendo login ou não) clica em "Guia de Primeiros Socorros".<br>  
 **Requisitos associados** | RF-002, RNF-002, RF-005, RF-013 & RF-008
 **Resultado esperado** | Acessar a página  dos Primeiros Socorros.
-**link do video do teste** |
+**link do video do teste** |  
+https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128707254/eed6a8eb-a309-4661-ad2e-83226babb5ef
 **Resultado obtido** | Sucesso.
 
 |*Caso de Teste*                                 |*CT10 - Acessando área dos Prevenção de Acidentes Domésticos - Parte 1* |
@@ -234,7 +238,7 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 **Procedimento**  | 1) Usuário acessa a área de login e informa "nome de usuário", senha e clica no botão "Entrar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br>
 **Requisitos associados** | RF-007 & RF-004
 **Resultado esperado** | Prosseguir para a área dos Telefones Úteis.
-**link do video do teste relizado** | 
+**link do video do teste relizado** | https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128707254/6aeec093-c430-4de6-b787-74282feda242
 **Resultado obtido** | Sucesso.
 
 **Caso de Teste** | **CT13 - Acessando área dos Telefones Úteis - Parte 2*
