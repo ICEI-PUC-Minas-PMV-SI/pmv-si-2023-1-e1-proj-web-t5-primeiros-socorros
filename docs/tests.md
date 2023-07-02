@@ -178,31 +178,21 @@ Esta seção deve apresentar o relatório com as evidências dos testes de softw
 |Requisito Associado | RF-015 & RNF-004 - Usuários não autenticados podem se cadastrar para criar uma conta e serem autenticados.|
 |Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128104293/bc31927a-43d8-4d35-9cf3-8d04cc7fbcca|
 
-**Caso de Teste** | **CT02 - Recuperar a senha**
- :--------------: | ------------
-**Procedimento**  | 1) Usuário acessa a área de login e clica em "Esqueceu a senha?".<br> 2) O usuário insere o seu CPF.<br> 3) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br> 4) O usuário insere a nova senha 5) A aplicação verifica se os dados são válidos, os amazena e direciona o usuário para a tela de login.
-**Requisitos associados** | RF-012 
-**Resultado esperado** | Recuperção de senha
-**link do video do teste** | 
-https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128707254/85c1aa09-9c7c-4eed-8ffd-255e10e403ce
-**Resultado obtido** | Sucesso.
+|**Caso de Teste**                               | *CT02 - Recuperar a senha* |
+|---|---|
+|Requisito Associado |  RF-012 - Usuário que deseja trocar uma senha.|
+|Link do vídeo do teste realizado: |
+https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128707254/85c1aa09-9c7c-4eed-8ffd-255e10e403ce|
 
 |*Caso de Teste*                                 |*CT03 - Acessando área de Sintomas - Parte 1* |
 |---|---|
 |Requisito Associado | RF-001 & RF-004 - Disponibilizar um informativo sobre sintomas de infarto,AVC, ansiedade e queda de glicemia para usuários cadastrados.|
 |Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128104293/8242f464-7ad9-4889-8e4f-5ff00c42f146| 
 
- |*Caso de Teste*                                 |*CT04 - Acessando área de Sintomas - Parte 2* |
+|*Caso de Teste*                                 |*CT04 - Acessando área de Sintomas - Parte 2* |
 |---|---|
 |Requisito Associado | RF-001 - Disponibilizar um informativo sobre sintomas de infarto,AVC, ansiedade e queda de glicemia para usuários não cadastrados.|
 |Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128104293/afd9c3fd-cd2d-4aaa-896e-c80ef57ade5c| 
-
- |*Caso de Teste*                                 |*CT08 - Acessando área dos Primeiros Socorros* |
-|---|---|
-|Requisito Associado | RNF-002, RF-013, RF-004, RF-002, RF-005 & RF-008 - Disponibilizar um informativo sobre sintomas de infarto,AVC, ansiedade e queda de glicemia para usuários não cadastrados.|
-|Link do vídeo do teste realizado: |
-https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128707254/e06e59bc-493d-4a2a-b758-0b147ff0b827
- | 
 
 |*Caso de Teste*                                 |*CT05 & CT06- Acessando área do Mapa - Parte 1* |
 |---|---|
@@ -215,14 +205,15 @@ https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-
 |Link do vídeo do teste realizado: |
 https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128707254/42e3e08d-f7c8-4480-9d4d-adca77fe44cb | 
 
-**Caso de Teste** | **CT09 - Acessando área dos Primeiros Socorros - Parte 2*
- :--------------: | ------------
-**Procedimento**  | 1) Usuário(Fazendo login ou não) clica em "Guia de Primeiros Socorros".<br>  
-**Requisitos associados** | RF-002, RNF-002, RF-005, RF-013 & RF-008
-**Resultado esperado** | Acessar a página  dos Primeiros Socorros.
-**link do video do teste** |  
-https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128707254/eed6a8eb-a309-4661-ad2e-83226babb5ef
-**Resultado obtido** | Sucesso.
+|*Caso de Teste*                                 |*CT08 - Acessando área dos Primeiros Socorros - Parte 1* |
+|---|---|
+|Requisito Associado | RNF-002, RF-013, RF-004, RF-002, RF-005 & RF-008 - Disponibilizar um informativo sobre sintomas de infarto,AVC, ansiedade e queda de glicemia para usuários não cadastrados.|
+|Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128707254/e06e59bc-493d-4a2a-b758-0b147ff0b827| 
+
+|*Caso de Teste*                                 |*CT09 - Acessando área dos Primeiros Socorros - Parte 2* |
+|---|---|
+|Requisito Associado | RF-002, RNF-002, RF-005, RF-013 & RF-008 -  Usuário(Fazendo login ou não) clica em "Guia de Primeiros Socorros".|
+|Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128707254/eed6a8eb-a309-4661-ad2e-83226babb5ef| 
 
 |*Caso de Teste*                                 |*CT10 - Acessando área dos Prevenção de Acidentes Domésticos - Parte 1* |
 |---|---|
@@ -234,32 +225,26 @@ https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-
 |Requisito Associado | RF-006 - A aplicação deve fornecer informações detalhadas e relevantes sobre como prevenir acidentes domésticos para usuários não cadastrados.|
 |Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128104293/bc0b314f-a732-40a1-a2cb-dcec14767635|
 
-**Caso de Teste** | **CT12 - Acessando área dos Telefones Úteis - Parte 1*
- :--------------: | ------------
-**Procedimento**  | 1) Usuário acessa a área de login e informa "nome de usuário", senha e clica no botão "Entrar".<br>2) A aplicação verifica se os dados são válidos e informa ao usuário caso não sejam.<br>
-**Requisitos associados** | RF-007 & RF-004
-**Resultado esperado** | Prosseguir para a área dos Telefones Úteis.
-**link do video do teste relizado** | https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128707254/6aeec093-c430-4de6-b787-74282feda242
-**Resultado obtido** | Sucesso.
+|*Caso de Teste*                                 |*CT12 - Acessando área dos Telefones Úteis - Parte 1* |
+|---|---|
+|Requisito Associado | RF-007 & RF-004 - Usuário deve fazer login e acessar a área dos telefones.|
+|Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128707254/6aeec093-c430-4de6-b787-74282feda242|
 
-**Caso de Teste** | **CT13 - Acessando área dos Telefones Úteis - Parte 2*
- :--------------: | ------------
-**Procedimento**  | 1) Usuário(Fazendo login ou não) clica em "Emergência".<br> 
-**Requisitos associados** | RF-007
-**Resultado esperado** | Acessar a página  dos Telefones Úteis.
-**link do video do teste** | https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128707254/6aeec093-c430-4de6-b787-74282feda242
-**Resultado obtido** | Sucesso.
+|*Caso de Teste*                                 |*CT13 - Acessando área dos Telefones Úteis - Parte 2* |
+|---|---|
+|Requisito Associado | RF-007 - Usuário não cadastrado deve acessar a área dos telefones.|
+|Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128707254/6aeec093-c430-4de6-b787-74282feda242|
 
-**Caso de Teste** | **CT18 - Dsipositivo móvel*
- :--------------: | ------------
-**Procedimento**  | 1) Usuário acessa a aplicação por meio de um dispositivo móvel.<br>    
-**Requisitos associados** | RNF-001
-**Resultado esperado** | Visualização do site.
-**link do video** | 
-https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128707254/194fdabd-cd19-486e-9221-3f33dcd9cbfe
+|*Caso de Teste*                                 |*CT14, CT15, CT16 & CT17 - Registro de Glicemia* |
+|---|---|
+|Requisito Associado | RF-014, RF-010, RF-011, RF-009 & RF-004 - Usuario deve fazer login, adicionar uma amostra na tabela de glicemia, editá-la e portanto excluir o registro. Depois disso, clicar no botão de log out.|
+|Link do vídeo do teste realizado: |https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128707254/6aeec093-c430-4de6-b787-74282feda242|
 
-**Resultado obtido** | Sucesso.
-
+|*Caso de Teste*                                 |*CT18 - Dispositivo móvel* |
+|---|---|
+|Requisito Associado | RNF-001 - Usuário acessa a aplicação por meio de um dispositivo móvel.|
+|Link do vídeo do teste realizado: |
+https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/128707254/194fdabd-cd19-486e-9221-3f33dcd9cbfe|
 
 
 ## Avaliação dos Testes de Software
@@ -378,15 +363,16 @@ Cenário 4: Você é uma pessoa que é portadora de diabetes e realiza mediçõe
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
 | Marcelo    | SIM             | 5                    | 71 segundos                          |
-| Tião       | SIM             | 4                    | 21.62 segundos                          |
+| Tião       | SIM             | 4                    | 61.62 segundos                          |
 | Roberto    | SIM             | 5                    | 90.50 segundos                          |
 |  |  |  |  |
-| **Média**     | 100%           | 5                | 0 segundos                           |
+| **Média**     | 100%           | 4,66                | 74,37 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 50 segundos |
 
 
     Comentários dos usuários: Marcelo: Sugestão de colocar uma opção para inserir comentários sobre sintomas sentidos naquele dia da medição da glicemia. 
                              Tião: Achou simples de usar, só não entendeu o porquê pede pra digitar o código. E sugere para que quando o nível glicêmico for alterado substitua o outro, pois fica confuso mostrando os dois valores.
+                             Roberto: Gostou muito, porém sentiu que a aplicação poderia dar um pouco mais de instruções.
 
 
 
@@ -416,6 +402,8 @@ Foram realizados testes funcionais do sistema, de acordo com o Plano de testes f
 Tomando como base os resultados obtidos, foi possível verificar que a aplicação web apresenta bons resultados quanto à taxa de sucesso na interação dos usuários, tendo em vista que os cenários propostos foram concluídos com sucesso.
 
 Além disso, a aplicação obteve também uma elevada satisfação subjetiva dos usuários no momento que realizavam os cenários propostos. Prova são as médias das avaliações em cada um dos cenários, que variou entre 4 (bom) e 5 (ótimo).
+
+Um ponto a se levantar é que alguns usuários tiveram problemas, pois precisavam primeiro limpar o cache antes de preencher o formulário do registro de glicemia.
 
 Com relação ao tempo para conclusão de cada tarefa/cenário, notamos discrepância entre a média de tempo dos usuários e o tempo do especialista/desenvolvedor em todos os cenários. Tal discrepância, em certa medida, é esperada, tendo em vista que o desenvolvedor já tem prévio conhecimento de toda a interface da aplicação, do posicionamento dos elementos, lógica de organização das páginas, etc.
 
