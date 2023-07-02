@@ -85,20 +85,24 @@ produtoForm.addEventListener("click", (e) => {
     time: document.getElementById("produto-time").value,
     vlr: document.getElementById("produto-vlr").value,
   });
-  let indexRegistro = listaUser[index].registroGlicemia.findIndex(function (
-    el
-  ) {
-    return id == JSON.parse(el).id;
-  });
-  console.log(indexRegistro);
-  if (indexRegistro >= 0) {
-    listaUser[index].registroGlicemia[indexRegistro] = produto;
-  } else {
-    if (listaUser[index].registroGlicemia) {
-      listaUser[index].registroGlicemia.push(produto);
+  if (listaUser[index].registroGlicemia) {
+    let indexRegistro = listaUser[index].registroGlicemia.findIndex(function (
+      el
+    ) {
+      return id == JSON.parse(el).id;
+    });
+    console.log(indexRegistro);
+    if (indexRegistro >= 0) {
+      listaUser[index].registroGlicemia[indexRegistro] = produto;
     } else {
-      listaUser[index].registroGlicemia = [produto];
+      if (listaUser[index].registroGlicemia) {
+        listaUser[index].registroGlicemia.push(produto);
+      } else {
+        listaUser[index].registroGlicemia = [produto];
+      }
     }
+  } else {
+    listaUser[index].registroGlicemia = [produto];
   }
   localStorage.setItem("listaUser", JSON.stringify(listaUser));
   location.reload();
