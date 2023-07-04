@@ -20,14 +20,15 @@ LOGOTIPO
 ![CORES PRIMEIROSAUDE](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/105678089/b51b2f98-a75f-4955-8261-694bea4db0ab)
 
 
+Ciano claro - sossego
+
+Ciano escuro - Representa situações relacionadas a saúde.
+
 Azul turquesa - tranquilidade
-
-vermelho - atenção
-
-ciano claro - sossego
 
 ciano padrão - controle
 
+vermelho - atenção
 
 ## Tipografia
 
