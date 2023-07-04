@@ -17,15 +17,14 @@ LOGOTIPO
 ## Cores
 
 
-![cores](https://user-images.githubusercontent.com/128707254/236089041-9906ed55-bc6e-473b-adf8-05a446faf06f.jpg)
+![CORES PRIMEIROSAUDE](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/assets/105678089/b51b2f98-a75f-4955-8261-694bea4db0ab)
 
-ciano escuro - tranquilidade
+
+Azul turquesa - tranquilidade
 
 vermelho - atenção
 
 ciano claro - sossego
-
-roxo - contraste
 
 ciano padrão - controle
 
