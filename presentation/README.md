@@ -8,8 +8,8 @@ Liste os arquivos produzidos e postados nesta pasta, com suas localizaçãoes e 
 - Arquivo com os slides da apresentação inicial
   [Apresentação1.pptx](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/files/11958120/Apresentacao1.pptx)
 
-* [Apresentação final] - 
-[slidefinal.pptx](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/files/11971733/slidefinal.pptx)
+* Apresentação final - [slidefinalpdf.pdf](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/files/11971819/slidefinalpdf.pdf)
+
 
 * [Vídeo de demonstração](./sample-video.mp4) -- arquivo com a demonstração do funcionamento do sistema
 
