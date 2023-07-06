@@ -8,7 +8,8 @@ Liste os arquivos produzidos e postados nesta pasta, com suas localizaçãoes e 
 - Arquivo com os slides da apresentação inicial
   [Apresentação1.pptx](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/files/11958120/Apresentacao1.pptx)
 
-* [Apresentação final](./sample-presentation.pdf) -- arquivo com os slides da apresentação final
+* [Apresentação final] [slideapresentacaofinal.pptx](https://github.com/ICEI-PUC-Minas-PMV-SI/pmv-si-2023-1-e1-proj-web-t5-primeiros-socorros/files/11971571/slideapresentacaofinal.pptx)
+
 * [Vídeo de demonstração](./sample-video.mp4) -- arquivo com a demonstração do funcionamento do sistema
 
 O conjunto de slides deve ser apresentado em um arquivo PowerPoint ou PDF. A apresentação do projeto deve contemplar todos os itens trabalhados nos demais artefatos. Alguns aspectos que devem ser contemplados na apresentação são listados a seguir.
