@@ -20,9 +20,8 @@ O objetivo geral do nosso sistema, é prestar uma maneira fácil e rápida de cu
 
 > - Fornecer infomações na forma de um guia para procedimentos de primeiros socorros, em caso de uma emergência médica ou algum acidente.
 > - Fornecer informações de localidades de postos de saúde ou hospitais mais próximos.
-> - Forma de registro e gerenciamento diário de indices de glicemia, com acompanhamento rotineiro de exercícios e de alimentação.
-> - Fornecer números de emergência de órgãos responsáveis com suas respectivas localidades (Samu, Polícia, Bombeiros, etc.).
-> - Fornecer lista de contatos de emergência.
+> - Forma de registro e gerenciamento diário de indices de glicemia.
+> - Fornecer números de emergência (Samu, Polícia, Bombeiros, etc.).
 > - Fornecer informações na forma de um guia para conscientização acerca das doenças e seus respectivos sintomas e perigos.
 
 ## Justificativa
