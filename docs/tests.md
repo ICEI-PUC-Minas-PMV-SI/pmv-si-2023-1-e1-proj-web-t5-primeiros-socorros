@@ -295,9 +295,9 @@ Apresente os cenários de testes utilizados na realização dos testes de usabil
 
 |     Usuário   | Idade            | Uso de internet (1 a 5, sendo 1 raramente faz uso e 5 usa constantemente)|
 |---------------|------------------|--------------------------------------------------------------------------|
-| Marcelo     | Idade: 33 anos   |  5|
-| Tião        | Idade: 50 anos   |  3|
-| Roberto     | Idade: 51 anos   |  2|
+| 1     | Idade: 33 anos   |  5|
+| 2     | Idade: 50 anos   |  3|
+| 3     | Idade: 51 anos   |  2|
 
 ## Registro de Testes de Usabilidade
 
@@ -305,17 +305,17 @@ Cenário 1: Você é uma pessoa que deseja se cadastrar na aplicação. Faça se
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| Marcelo      | SIM             | 5                    | 55.15 segundos                  |
-| Tião         | SIM             | 5                    | 60.20 segundos                  |
-| Roberto      | SIM             | 5                    | 90 segundos                  |
+| 1      | SIM             | 5                    | 55.15 segundos                  |
+| 2         | SIM             | 5                    | 60.20 segundos                  |
+| 3      | SIM             | 5                    | 90 segundos                  |
 |  |  |  |  |
 | **Média**     | 100%           | 5                | 68.45 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 45 segundos |
 
 
-    Comentários dos usuários: Marcelo: Gostou da interface e achou a aplicação didática. O layout é visível e com fácil localização dos campos a serem preenchidos. Gostaria de receber e-mail com a confirmação para finalizar o cadastro.
-                              Tião: Achou a página dinâmica e de fácil entendimento.
-                              Roberto: Gostou e achou a página tranquila.
+    Comentários dos usuários: Usuário 1: Gostou da interface e achou a aplicação didática. O layout é visível e com fácil localização dos campos a serem preenchidos. Gostaria de receber e-mail com a confirmação para finalizar o cadastro.
+                              Usuário 2: Achou a página dinâmica e de fácil entendimento.
+                              Usuário 3: Gostou e achou a página tranquila.
 
 
 
@@ -323,17 +323,17 @@ Cenário 2: Você é uma pessoa que está viajando e deseja encontrar um hospita
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| Marcelo       | SIM             | 5                    | 28.55 segundos                          |
-| Tião      | SIM             | 5                |  26.72 segundos                          |
-| Roberto      | SIM             | 4                  | 30.02 segundos                          |
+| 1       | SIM             | 5                    | 28.55 segundos                          |
+| 2      | SIM             | 5                |  26.72 segundos                          |
+| 3      | SIM             | 4                  | 30.02 segundos                          |
 |  |  |  |  |
 | **Média**     | 100%           | 4,66                |  28.43 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 20 segundos |
 
 
-    Comentários dos usuários: Marcelo: Gostaria que as opções em inglês estivessem em português.
-                              Tião: Achou a busca simples e fácil. A função de filtrar o "lugar" ganhou um destaque.
-                              Roberto: Gostaria da tela maior na versão mobile.
+    Comentários dos usuários: Usuário 1: Gostaria que as opções em inglês estivessem em português.
+                              Usuário 2: Achou a busca simples e fácil. A função de filtrar o "lugar" ganhou um destaque.
+                              Usuário 3: Gostaria da tela maior na versão mobile.
 
 
 
@@ -343,17 +343,17 @@ Cenário 3: Você é uma pessoa que sofre de crises de ansiedade. Localize na ap
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| Marcelo       | SIM             | 5                    | 6.85 segundos                          |
-| Tião      | SIM             | 5                    | 7.01 segundos                          |
-| Roberto      | SIM             | 5                    | 8.05 segundos                          |
+| 1      | SIM             | 5                    | 6.85 segundos                          |
+| 2      | SIM             | 5                    | 7.01 segundos                          |
+| 3      | SIM             | 5                    | 8.05 segundos                          |
 |  |  |  |  |
 | **Média**     | 100%           | 5                | 7.30 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 3.50 segundos |
 
 
-    Comentários dos usuários: Marcelo: Foi fácil e intuitivo.
-                              Tião: Simples e de fácil acesso.
-                              Roberto: Bom e fácil de acessar.
+    Comentários dos usuários: Usuário 1: Foi fácil e intuitivo.
+                              Usuário 2: Simples e de fácil acesso.
+                              Usuário 3: Bom e fácil de acessar.
 
 
 
@@ -361,17 +361,17 @@ Cenário 4: Você é uma pessoa que é portadora de diabetes e realiza mediçõe
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| Marcelo    | SIM             | 5                    | 71 segundos                          |
-| Tião       | SIM             | 4                    | 61.62 segundos                          |
-| Roberto    | SIM             | 5                    | 90.50 segundos                          |
+| 1    | SIM             | 5                    | 71 segundos                          |
+| 2       | SIM             | 4                    | 61.62 segundos                          |
+| 3    | SIM             | 5                    | 90.50 segundos                          |
 |  |  |  |  |
 | **Média**     | 100%           | 4,66                | 74,37 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 50 segundos |
 
 
-    Comentários dos usuários: Marcelo: Sugestão de colocar uma opção para inserir comentários sobre sintomas sentidos naquele dia da medição da glicemia. 
-                             Tião: Achou simples de usar, só não entendeu o porquê pede pra digitar o código. E sugere para que quando o nível glicêmico for alterado substitua o outro, pois fica confuso mostrando os dois valores.
-                             Roberto: Gostou muito, porém sentiu que a aplicação poderia dar um pouco mais de instruções.
+    Comentários dos usuários: Usuário 1: Sugestão de colocar uma opção para inserir comentários sobre sintomas sentidos naquele dia da medição da glicemia. 
+                             Usuário 2: Achou simples de usar, só não entendeu o porquê pede pra digitar o código. E sugere para que quando o nível glicêmico for alterado substitua o outro, pois fica confuso mostrando os dois valores.
+                             Usuário 3: Gostou muito, porém sentiu que a aplicação poderia dar um pouco mais de instruções.
 
 
 
@@ -379,17 +379,17 @@ Cenário 5: Você é uma pessoa que trabalha cuidando de idosos e quer ter acess
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| Marcelo      | SIM             | 5             | 5.87 segundos                  |
-| Tião     | SIM             | 5                 | 6.05 segundos                  |
-| Roberto      | SIM             | 5                    | 5 segundos                  |
+| 1     | SIM             | 5             | 5.87 segundos                  |
+| 2     | SIM             | 5                 | 6.05 segundos                  |
+| 3      | SIM             | 5                    | 5 segundos                  |
 |  |  |  |  |
 | **Média**     | 100%           | 5                | 5.64 segundos                           |
 | **Tempo para conclusão pelo especialista** | SIM | 5 | 3.22 segundos |
 
 
-    Comentários dos usuários: Marcelo: Foi tranquilo.
-                              Tião: Achou simples e fácil.
-                              Roberto: Acho fácil e prático.
+    Comentários dos usuários: Usuário 1: Foi tranquilo.
+                              Usuário 2: Achou simples e fácil.
+                              Usuário 3: Acho fácil e prático.
 
 
 
