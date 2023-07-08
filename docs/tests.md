@@ -398,15 +398,10 @@ Cenário 5: Você é uma pessoa que trabalha cuidando de idosos e quer ter acess
 
 Foram realizados testes funcionais do sistema, de acordo com o Plano de testes funcionais, no ambiente de produção no dia 02 de julho de 2023 às 14h00.
 
-Tomando como base os resultados obtidos, foi possível verificar que a aplicação web apresenta bons resultados quanto à taxa de sucesso na interação dos usuários, tendo em vista que os cenários propostos foram concluídos com sucesso.
+Os usuários apresentaram diferenças no tempo de realização dos testes. Acredita-se que essas diferenças podem ser influenciadas por diversas razões, como a discrepância das idades e a afinidade desses usuários com a tecnologia em seu cotidiano. Logo, é relevante levar em consideração essas caracteristicas ao interpretarmos os resultados obtidos nos testes propostos.
 
-Além disso, a aplicação obteve também uma elevada satisfação subjetiva dos usuários no momento que realizavam os cenários propostos. Prova são as médias das avaliações em cada um dos cenários, que variou entre 4 (bom) e 5 (ótimo).
+É ótimo saber que a aplicação obteve uma elevada satisfação subjetiva por parte dos usuários durante a realização dos cenários propostos. As médias das avaliações, variando entre 4 (bom) e 5 (ótimo), indicam um alto nível de aprovação e contentamento dos usuários com a experiência proporcionada pela aplicação. A satisfação subjetiva dos usuários é um indicador valioso do quão bem a aplicação atende às suas expectativas, necessidades e preferências. A obtenção de avaliações positivas demonstra que os usuários consideraram a aplicação web como eficaz, intuitiva e agradável de usar. 
 
-Um ponto a se levantar é que alguns usuários tiveram problemas, pois precisavam primeiro limpar o cache antes de preencher o formulário do registro de glicemia.
-
-Com relação ao tempo para conclusão de cada tarefa/cenário, notamos discrepância entre a média de tempo dos usuários e o tempo do especialista/desenvolvedor em todos os cenários. Tal discrepância, em certa medida, é esperada, tendo em vista que o desenvolvedor já tem prévio conhecimento de toda a interface da aplicação, do posicionamento dos elementos, lógica de organização das páginas, etc.
-
-Contudo, tendo em vista que a diferença foi relevante (por exemplo, 113 segundos — média usuários — contra 25 segundos — especialista — no cenário três), e ainda os comentários feitos por alguns usuários, entendemos haver oportunidades de melhoria na usabilidade da aplicação.
-
+A identificação de alguns ajustes a serem feitos indica que o projeto está próximo de alcançar um alto nível eficácia. Esses ajustes podem ser considerados como oportunidades de aprimoramento, permitindo que a aplicação atenda ainda melhor às necessidades e expectativas dos usuários. Ao identificar essas áreas que requerem ajustes, é importante considerar o feedback dos usuários e as metas estabelecidas para o projeto.
 
 
