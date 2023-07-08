@@ -361,12 +361,12 @@ Cenário 4: Você é uma pessoa que é portadora de diabetes e realiza mediçõe
 
 | Usuário | Taxa de sucesso | Satisfação subjetiva | Tempo para conclusão do cenário |
 |---------|-----------------|----------------------|---------------------------------|
-| 1    | SIM             | 5                    | 71 segundos                          |
-| 2       | SIM             | 4                    | 61.62 segundos                          |
-| 3    | SIM             | 5                    | 90.50 segundos                          |
+| 1    | SIM             | 5                    | 41 segundos                          |
+| 2       | SIM             | 4                    | 31.62 segundos                          |
+| 3    | SIM             | 5                    | 60.50 segundos                          |
 |  |  |  |  |
-| **Média**     | 100%           | 4,66                | 74,37 segundos                           |
-| **Tempo para conclusão pelo especialista** | SIM | 5 | 50 segundos |
+| **Média**     | 100%           | 4,66                | 44,37 segundos                           |
+| **Tempo para conclusão pelo especialista** | SIM | 5 | 25 segundos |
 
 
     Comentários dos usuários: Usuário 1: Sugestão de colocar uma opção para inserir comentários sobre sintomas sentidos naquele dia da medição da glicemia. 
