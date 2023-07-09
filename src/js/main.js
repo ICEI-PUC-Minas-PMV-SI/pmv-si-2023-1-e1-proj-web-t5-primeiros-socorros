@@ -1,3 +1,6 @@
+google.charts.load("current", { packages: ["corechart"] });
+google.charts.setOnLoadCallback(calculaMedia);
+
 const listaUser = JSON.parse(localStorage.getItem("listaUser"));
 
 localStorage.setItem("listaUser", JSON.stringify(listaUser));
@@ -36,6 +39,7 @@ function loadRegistros() {
             `;
     produtoList.innerHTML = lista_produtos;
   }
+  calculaMedia();
 }
 
 // DELETE - PROCEDIMENTO PARA EXCLUIR UM PRODUTO
@@ -81,7 +85,7 @@ produtoForm.addEventListener("click", (e) => {
   let id = document.getElementById("produto-id").value;
   const produto = JSON.stringify({
     id: document.getElementById("produto-id").value,
-    date: document.getElementById("produto-date").value,
+    date: formatarData(document.getElementById("produto-date").value),
     time: document.getElementById("produto-time").value,
     vlr: document.getElementById("produto-vlr").value,
   });
@@ -108,4 +112,49 @@ produtoForm.addEventListener("click", (e) => {
   location.reload();
 });
 
+function calculaMedia() {
+  let registros = listaUser[index].registroGlicemia;
+  let valores = [["Data", "Valor", "Média"]];
+  let mediaGeral = 0;
+  console.log("reg", registros);
+  if (registros.length) {
+    console.log(listaUser[index].registroGlicemia);
+    registros.map((registro, index) => {
+      registro = JSON.parse(registro);
+      mediaGeral += parseInt(registro.vlr);
+      let media = mediaGeral / (index + 1);
+      valores.push([
+        `${registro.date} ${registro.time}`,
+        parseInt(registro.vlr),
+        parseInt(media),
+      ]);
+      console.log(registro);
+    });
+    drawChart(valores, parseInt(mediaGeral / registros.length));
+  }
+}
+
+function drawChart(valores, mediaGeral) {
+  console.log("draw", valores);
+  var data = google.visualization.arrayToDataTable(valores);
+
+  var options = {
+    title: `Gráfico de Glicemia (Média glicêmica até o momento: ${mediaGeral})`,
+    curveType: "function",
+    legend: { position: "bottom" },
+    backgroundColor: 'lightcyan'
+  };
+
+  var chart = new google.visualization.LineChart(
+    document.getElementById("curve_chart")
+  );
+
+  chart.draw(data, options);
+}
+
+function formatarData(data) {
+  var partes = data.split("-");
+  var dataFormatada = partes[2] + "/" + partes[1] + "/" + partes[0];
+  return dataFormatada;
+}
 loadRegistros();
