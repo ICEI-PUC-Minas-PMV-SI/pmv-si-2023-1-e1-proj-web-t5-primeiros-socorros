@@ -26,7 +26,7 @@ O objetivo geral do nosso sistema, é prestar uma maneira fácil e rápida de cu
 
 ## Justificativa
 
-Nos dias atuais, o homem está cada vez mais estressado, se alimentando mal e não se exercitando na maneira que deveria. Com isso, a população está mais sujeita a doenças crônicas e maus súbitos no geral. De acordo com a Organização Mundial da Saúde (OMS), a cada ano, cerca de 15 milhões de pessoas sofrem um AVC em todo o mundo e cerca de 5 milhões não conseguem resistir ao mesmo [5]. Além disso, a mesma instituição estima que 180.000 pessoas morrem a cada ano devido a queimaduras graves e mais de 90% dessas ocorrem em países de baixa e média renda [6].
+Nos dias atuais, o homem está cada vez mais estressado, se alimentando mal e não se exercitando na maneira que deveria, com isso, a população está mais sujeita a doenças crônicas e maus súbitos no geral. De acordo com a Organização Mundial da Saúde (OMS), a cada ano, cerca de 15 milhões de pessoas sofrem um AVC em todo o mundo e cerca de 5 milhões não conseguem resistir ao mesmo [5]. Além disso, a mesma instituição estima que 180.000 pessoas morrem a cada ano devido a queimaduras graves e mais de 90% dessas ocorrem em países de baixa e média renda [6].
 
 Uma estimativa feita pela Sociedade Brasileira de Cardiologia (SBC) mostra que, anualmente, cerca de 35 mil mortes por infarto seriam evitadas se os pacientes tivessem recebido os primeiros socorros [2]. Além disso, durante o XV Congresso de Cardiologia de Brasília, em 2008, o tema Morte Súbita, um dos mais áridos de todo o evento, foi apresentado pelo cardiologista Márcio Sturmer. “Esse é um problema de saúde pública em qualquer lugar do mundo. A boa notícia é que 40% das mortes podem ser evitadas” (STURMER, 2008) [1].
 
